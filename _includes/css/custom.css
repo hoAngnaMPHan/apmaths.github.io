@@ -1,0 +1,161 @@
+body {
+  background: #010417;
+  font-size:12px;
+}
+a {
+  color: #fedb61;
+}
+.mediumnavigation {
+  background: #061348;
+  border-bottom: 3px solid #061348;
+  padding: 0.75rem 0;
+}
+.navbar-toggleable-md .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(254 219 97);
+}
+.site-content {
+  padding-top: 0;
+  margin-top: 0;
+}
+.fa-user {
+  color: rgb(254 219 97);
+}
+
+@media (min-width: 992px) {
+  .navbar-toggleable-md .navbar-toggler {
+    display: block;
+  }
+  .intro {
+    padding: 12rem 0;
+  }
+}
+.navbar-toggler-right {
+  right: 0;
+}
+.intro {
+  background-image: url(../assets/images/promo.webp);
+  background-repeat: no-repeat;
+  background-size: 100%, auto, contain;
+}
+
+.footer-menu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid transparent;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler i::before {
+  font-size: 32px;
+  display: block;
+}
+.footer-menu i::before {
+  display: block;
+  font-size: 24px;
+}
+
+.btn-group,
+.btn-group-vertical {
+  position: relative;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.selectors,
+.block {
+  height: 100%;
+  width: 100%;
+}
+
+.selectors a {
+  border: 0;
+  border-radius: 0;
+  background-color: #061348;
+  color: #fedb61;
+  width: 25%;
+  margin-left: 0;
+}
+
+.selectors a:active {
+  border: 0;
+}
+
+.selectors a:focus {
+  border: 0;
+  outline: 0;
+  box-shadow: 0 0 0 0px;
+}
+
+.active,
+.selector-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.inactive {
+  display: none;
+}
+.selector-holder i {
+  margin: 1rem 0 0;
+}
+
+/* Colors of the buttons*/
+
+.selectors a:hover,
+.selectors a:active,
+.selectors a:focus,
+.navbar-toggler a:hover,
+.navbar-toggler a:active,
+.navbar-toggler a:focus {
+  color: #4d80db;
+}
+
+.navbar-toggleable-md .navbar-toggler {
+  display: flex;
+}
+.navbar-toggler-right li {
+  list-style: none;
+  padding: 0 .6rem;
+}
+
+.main-content {
+  margin: 1rem 0;
+}
+.posttitle {
+  color: #fff;
+}
+.article-post,
+.link-dark {
+  color: #fff;
+  font-size:14px;
+}
+
+.action-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+.action-grid a {
+  padding: 10px;
+  margin: 3px 0;
+  font-size: 20px;
+}
+
+.action-login {
+  background: #4d80db;
+}
+.action-register {
+  background: #fb9619;
+}
