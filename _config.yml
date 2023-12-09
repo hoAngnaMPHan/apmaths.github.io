@@ -17,14 +17,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-remote_theme: chriskyfung/amp-affiliately-jekyll-theme
-name: "CMO777"
-title: "CMO777: Daftar Situs Slot Online Gacor Gampang Menang"
+remote_theme: APMatHS/apmaths.github.io
+name: "Apmaths"
+title: "Apmaths"
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Test
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://p-h-nam.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://apmaths.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: 'https://i.postimg.cc/RZLKdGYT/CMO777.png'
 logo: 'https://i.postimg.cc/RZLKdGYT/CMO777.png'
 timezone: 'Asia/Bangkok'
@@ -47,7 +47,7 @@ defaults:
 # Copyright Start Year
 copyright: 
   prefix: 
-  ownership: CMO777
+  ownership: APMATHS
   link: /
 
 plugins:
