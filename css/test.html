@@ -1,51 +1,25 @@
-<html>
-  <head>
-       <link rel="stylesheet" type="text/css" href="/css/ad.css">
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Page</title>
+</head>
+<body>
+    <p>Chuyển hướng đến trang bên ngoài sau 30 giây...</p>
 
-  <body>
-<script type='text/javascript'>
+    <script>
+        // Đặt thời gian đợi là 30 giây (30000 milliseconds)
+        var delayInMilliseconds = 30000;
 
-//<![CDATA[
+        // Hàm chuyển hướng
+        function redirectToExternalLink() {
+            // Thay thế 'https://example.com' bằng địa chỉ liên kết thực tế
+            window.location.href = 'https://example.com';
+        }
 
-function generate(){var e,n=document.getElementById("downloadx"),t=document.getElementById("btnx"),a=document.getElementById("downloadx").href,l=30,d=document.createElement("span");n.parentNode.replaceChild(d,n),e=setInterval(function(){--l<0?(d.parentNode.replaceChild(n,d),clearInterval(e),window.location.replace(a),n.style.display="inline"):(d.innerHTML="<p style='font-family:Google Sans, sans-serif'>Please wait "+l.toString()+" seconds...</p>",t.style.display="none")},1e3)}
-//]]>
-</script>
-    
-    <div class="download_now">
-
-  <div class="download-now">
-
-    <div class="download_button">
-
-    <div class="download-title">Download free</div>
-
-
-
-
-
-    <button onclick="generate()" id="btnx"><i class="fas fa-cloud-download-alt"></i> Download</button>
-
-    <a id="downloadx" href="#" style="display:none"><i class="fas fa-cloud-download-alt"></i> Get Link</a>
-
-    </div>
-
-    <div class="file-description">
-
-        <span class="file-size"> <i class="fa fa-file fa-fw" aria-hidden="true"></i> <strong>File Type:</strong> 130KB ZIP File</span>
-
-    </div>
-
-  </div>
-
-  <div class="file-info"><i class="fas fa-info-circle"></i> MATHS V23.12.09.2
-
-  </div>
-
-</div>
-
-    
-<div id="some_div">
-</div>
-  </body>
+        // Sử dụng setTimeout để đặt hàm chuyển hướng sau một khoảng thời gian nhất định
+        setTimeout(redirectToExternalLink, delayInMilliseconds);
+    </script>
+</body>
 </html>
