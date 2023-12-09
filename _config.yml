@@ -10,9 +10,9 @@
 remote_theme: APMatHS/apmaths.github.io
 name: "Apmaths"
 title: "Apmaths"
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Test
+
+  # this means to ignore newlines until "baseurl:"
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://apmaths.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: 'https://i.postimg.cc/RZLKdGYT/CMO777.png'
@@ -23,6 +23,27 @@ target_blank: false
 anchor_link: true
 markdown: kramdown
 permalink: /blog/:title
+paginate: 5 # amount of posts to show
+paginate_path: /blog/page/:num/
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+highlighter: rouge
+lsi: false
+excerpt_separator: <!--more-->
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 defaults:
   - 
@@ -35,7 +56,7 @@ defaults:
 #theme: minima
 
 # Copyright Start Year
-copyright: 
+copyright: 2023
   prefix: 
   ownership: APMATHS
   link: /
