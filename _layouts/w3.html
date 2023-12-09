@@ -42,14 +42,12 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
- .mobile_device_380px {
-        display: none;
-    }
-    .mobile_device_480px {
-        display: none;
-    }
-
+  
+@media screen and (max-width: 480px) {
+  .sidenav {display: none;}
+  .sidenav a {display: none;}
+  .main{margin-left: 5px;}
+}
   
   footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 </style>
