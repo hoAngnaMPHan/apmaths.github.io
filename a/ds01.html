@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+</head>
+<body>
+    <p id="countdown">30</p>
+
+    <script>
+        // Đặt thời gian đếm ngược ban đầu là 30 giây
+        var countdownValue = 30;
+
+        // Lấy phần tử HTML chứa đồng hồ đếm ngược
+        var countdownElement = document.getElementById('countdown');
+
+        // Hàm cập nhật đồng hồ đếm ngược
+        function updateCountdown() {
+            countdownElement.textContent = countdownValue;
+
+            // Giảm giá trị đếm ngược
+            countdownValue--;
+
+            // Kiểm tra nếu giá trị đếm ngược đạt 0, chuyển hướng hoặc thực hiện hành động cần thiết
+            if (countdownValue < 0) {
+                clearInterval(countdownInterval);
+                // Thay thế 'https://example.com' bằng địa chỉ liên kết thực tế
+                window.location.href = 'https://example.com';
+            }
+        }
+
+        // Cập nhật đồng hồ mỗi giây
+        var countdownInterval = setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>
