@@ -3,21 +3,15 @@
 
    {% include head.html %}
 <body>
-
-<div class="sidenav">
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
-  <a href="#contact">Contact</a>
-</div>
+    {% include sidenav.html %}
 
 <div class="main">
  {% include nav.html %}
-<div class="container">
+      <div class="container">
 
-  {{ content }}
-{% include footer.html %}
-</div>
+           {{ content }}
+         {% include footer.html %}
+      </div>
    
 </div>
    
