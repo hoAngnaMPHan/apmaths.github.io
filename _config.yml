@@ -18,8 +18,6 @@ url: "http://apmaths.github.io" # the base hostname & protocol for your site, e.
 favicon: 'https://i.postimg.cc/RZLKdGYT/CMO777.png'
 logo: 'https://i.postimg.cc/RZLKdGYT/CMO777.png'
 timezone: 'Asia/Bangkok'
-twitter_username: jekyllrb
-github_username:  jekyll
 
 target_blank: false
 anchor_link: true
