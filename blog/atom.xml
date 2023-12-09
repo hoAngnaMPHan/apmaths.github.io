@@ -5,7 +5,7 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Apmaths's Blog</title>
- <link href="http://hanapmathskquinlan.github.io/blog/atom.xml" rel="self"/>
+ <link href="http://apmaths.github.io/blog/atom.xml" rel="self"/>
  <link href="http://apmaths.github.io/blog"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://apmaths.github.io/blog</id>
