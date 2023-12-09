@@ -12,7 +12,20 @@
 function generate(){var e,n=document.getElementById("downloadx"),t=document.getElementById("btnx"),a=document.getElementById("downloadx").href,l=30,d=document.createElement("span");n.parentNode.replaceChild(d,n),e=setInterval(function(){--l<0?(d.parentNode.replaceChild(n,d),clearInterval(e),window.location.replace(a),n.style.display="inline"):(d.innerHTML="<p style='font-family:Google Sans, sans-serif'>Vui lòng chờ "+l.toString()+" seconds...</p>",t.style.display="none")},1e3)}
 
 
-
+var timeLeft = 30;
+    var elem = document.getElementById('some_div');
+    
+    var timerId = setInterval(countdown, 1000);
+    
+    function countdown() {
+      if (timeLeft == -1) {
+        clearTimeout(timerId);
+        doSomething();
+      } else {
+        elem.innerHTML = timeLeft + ' seconds remaining';
+        timeLeft--;
+      }
+    }
 
 //]]>
 
@@ -48,6 +61,10 @@ function generate(){var e,n=document.getElementById("downloadx"),t=document.getE
 
   </div>
 
+</div>
+
+    
+<div id="some_div">
 </div>
   </body>
 </html>
