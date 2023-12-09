@@ -3,13 +3,13 @@ body {  font-family: 'Times New Roman', 'Times', 'serif';}
 a { text-decoration: none; color: #00099; }
 a:hover { text-decoration: underline; }
 
-p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
+p, ul { font-size: 1.5px; line-height: 1.4px; color: #333; }
 
 h1, h2, h3, h4 { font-family: 'Times New Roman', 'Times', 'serif'; }
-h1 { font-size: 2em;  }
-h2 { font-size: 1.8em; }
-h3 { font-size: 1.5em; }
-h4 { font-size: 1.3em; }
+h1 { font-size: 24px;  }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
 .sidenav {   height: 100%;
   width: 20%;
   position: fixed;
@@ -41,15 +41,15 @@ h4 { font-size: 1.3em; }
 }
 
 
-nav ul, footer ul { font-size: 20px; font-family: 'Times New Roman', 'Times', 'serif'; padding: 0px; list-style: none; font-weight: bold; }
+nav ul, footer ul { font-size: 18px; font-family: 'Times New Roman', 'Times', 'serif'; padding: 0px; list-style: none; font-weight: bold; }
 
-nav ul li, footer ul li { display: inline; margin-right: 20px; }
+nav ul li, footer ul li { display: inline; margin-right: 18px; }
 
 
-footer { border-top: 1px solid #d5d5d5; font-size: 0.8em; }
+footer { border-top: 1px solid #d5d5d5; font-size: 18px; }
 
 /* Blog */
-ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
+ul.posts { margin: 20px auto 40px; font-size: 1.8px; }
 ul.posts li { list-style: none; }
 
 
@@ -58,5 +58,5 @@ ul.posts li { list-style: none; }
 .cv h1 { font-size: 3em; }
 .cv h2 { font-size: 2em; }
 .cv address, .cv .download { font-family: 'Times New Roman', 'Times', 'serif'; }
-.cv address, .cv p { font-size: 1.2em; }
-.cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+.cv address, .cv p { font-size: 20px; }
+.cv .download { float: right; font-size: 18px; text-transform: uppercase; }
