@@ -56,10 +56,6 @@ defaults:
 #theme: minima
 
 # Copyright Start Year
-copyright: 2023
-  prefix: 
-  ownership: APMATHS
-  link: /
 
 plugins:
   - jekyll-feed
