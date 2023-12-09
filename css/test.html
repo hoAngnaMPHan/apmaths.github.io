@@ -1,7 +1,6 @@
 <html>
   <head>
        <link rel="stylesheet" type="text/css" href="/css/ad.css">
-    <link rel="stylesheet" type="text/css" href="/css/ad.js">
   </head>
 
   <body>
@@ -10,25 +9,7 @@
 //<![CDATA[
 
 function generate(){var e,n=document.getElementById("downloadx"),t=document.getElementById("btnx"),a=document.getElementById("downloadx").href,l=30,d=document.createElement("span");n.parentNode.replaceChild(d,n),e=setInterval(function(){--l<0?(d.parentNode.replaceChild(n,d),clearInterval(e),window.location.replace(a),n.style.display="inline"):(d.innerHTML="<p style='font-family:Google Sans, sans-serif'>Please wait "+l.toString()+" seconds...</p>",t.style.display="none")},1e3)}
-
-
-var timeLeft = 30;
-    var elem = document.getElementById('some_div');
-    
-    var timerId = setInterval(countdown, 1000);
-    
-    function countdown() {
-      if (timeLeft == -1) {
-        clearTimeout(timerId);
-        doSomething();
-      } else { 
-        elem.innerHTML = timeLeft + ' seconds remaining';
-        timeLeft--;
-      }
-    }
-
 //]]>
-
 </script>
     
     <div class="download_now">
