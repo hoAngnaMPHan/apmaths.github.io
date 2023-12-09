@@ -1,25 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirect Page</title>
-</head>
-<body>
-    <p>Chuyển hướng đến trang bên ngoài sau 30 giây...</p>
+body {  font-family: 'Times New Roman', 'Times', 'serif';}
 
-    <script>
-        // Đặt thời gian đợi là 30 giây (30000 milliseconds)
-        var delayInMilliseconds = 30000;
+a { text-decoration: none; color: #00099; }
+a:hover { text-decoration: underline; }
 
-        // Hàm chuyển hướng
-        function redirectToExternalLink() {
-            // Thay thế 'https://example.com' bằng địa chỉ liên kết thực tế
-            window.location.href = 'https://example.com';
-        }
+p, ul { font-size: 1.5px; line-height: 1.4px; color: #333; }
 
-        // Sử dụng setTimeout để đặt hàm chuyển hướng sau một khoảng thời gian nhất định
-        setTimeout(redirectToExternalLink, delayInMilliseconds);
-    </script>
-</body>
-</html>
+h1, h2, h3, h4 { font-family: 'Times New Roman', 'Times', 'serif'; }
+h1 { font-size: 24px;  }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+.sidenav {   height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;}
+
+.sidenav a {   padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block; }
+
+.sidenav a:hover {  color: #f1f1f1;}
+
+.main {
+  margin-left: 20%; /* Same as the width of the sidenav */
+  font-size: 18px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .sidenav {display: none;}
+  .sidenav a {display: none;}
+  .main{margin-left: 5px;}
+}
+
+
+nav ul, footer ul { font-size: 18px; font-family: 'Times New Roman', 'Times', 'serif'; padding: 0px; list-style: none; font-weight: bold; }
+
+nav ul li, footer ul li { display: inline; margin-right: 18px; }
+
+
+footer { border-top: 1px solid #d5d5d5; font-size: 18px; }
+
+/* Blog */
+ul.posts { margin: 20px auto 40px; font-size: 1.8px; }
+ul.posts li { list-style: none; }
+
+
+/* CV */
+.cv { margin: 0px 0px 60px; }
+.cv h1 { font-size: 3em; }
+.cv h2 { font-size: 2em; }
+.cv address, .cv .download { font-family: 'Times New Roman', 'Times', 'serif'; }
+.cv address, .cv p { font-size: 20px; }
+.cv .download { float: right; font-size: 18px; text-transform: uppercase; }
