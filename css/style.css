@@ -2,6 +2,10 @@ body {  font-family: 'Times New Roman', 'Times', 'serif';   min-height: 100vh; /
             display: flex;
             flex-direction: column;}
 
+img { 
+  object-fit: contain;
+}
+
 a { text-decoration: none; color: #111111; }
 a:hover { text-decoration: none; color: #0033CC; }
 
