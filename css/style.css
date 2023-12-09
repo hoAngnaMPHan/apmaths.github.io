@@ -1,4 +1,6 @@
-body {  font-family: 'Times New Roman', 'Times', 'serif';}
+body {  font-family: 'Times New Roman', 'Times', 'serif';   min-height: 100vh; /* Đảm bảo body có ít nhất 100% chiều cao của viewport */
+            display: flex;
+            flex-direction: column;}
 
 a { text-decoration: none; color: #00099; }
 a:hover { text-decoration: underline; }
@@ -31,11 +33,11 @@ h4 { font-size: 18px; }
 .main {
   margin-left: 20%; /* Same as the width of the sidenav */
   font-size: 18px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-  flex: 1;
+  padding: 0px 10px; 
+  flex: 1; /* Mở rộng nội dung để chiếm hết không gian còn lại */
+      
 }
 
-.content {
             
 
 @media screen and (max-width: 480px) {
