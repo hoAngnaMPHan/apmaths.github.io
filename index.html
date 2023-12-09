@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Chuyển tiếp
+title: Apmaths
 permalink: /
 ---
 
@@ -11,8 +11,5 @@ permalink: /
     </section>
     
     {% for post in site.posts %}
-        <section class="snippet snippet_{{ post.id | slugify: "ascii" }}">
-            {% include snippet.html post=post %}
-        </section>
     {% endfor %}
 </section>
