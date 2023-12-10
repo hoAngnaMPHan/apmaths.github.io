@@ -6,7 +6,7 @@ img {
   object-fit: contain;
 }
 
-a { text-decoration: none; color: #111111; }
+a { text-decoration: none; color: #0000FF; }
 a:hover { text-decoration: none; color: #0033CC; }
 
 p, ul { font-size: 18px; line-height: 1.5; color: #333; }
@@ -36,8 +36,9 @@ h4 { font-size: 18px; }
 
 .main {
   margin-left: 20%; /* Same as the width of the sidenav */
-  font-size: 18px; /* Increased text to enable scrolling */
-  padding: 0px 20px; 
+  font-size: 18px;/* Increased text to enable scrolling */
+  padding: 0px 10px; 
+  margin-right: 5%;
 
 }
 
