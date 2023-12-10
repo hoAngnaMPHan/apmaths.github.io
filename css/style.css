@@ -38,11 +38,10 @@ h4 { font-size: 18px; }
   margin-left: 20%; /* Same as the width of the sidenav */
   font-size: 18px; /* Increased text to enable scrolling */
   padding: 0px 10px; 
-  flex: 1; /* Mở rộng nội dung để chiếm hết không gian còn lại */
-      
+
 }
 
-            
+.vfill{  flex: 1; /* Mở rộng nội dung để chiếm hết không gian còn lại */}     
 
 @media screen and (max-width: 480px) {
   .sidenav {display: none;}
@@ -65,8 +64,8 @@ ul.posts li { list-style: none; }
 
 /* CV */
 .cv { margin: 0px 0px 60px; }
-.cv h1 { font-size: 3em; }
-.cv h2 { font-size: 2em; }
+.cv h1 { font-size: 30px; }
+.cv h2 { font-size: 25px; }
 .cv address, .cv .download { font-family: 'Times New Roman', 'Times', 'serif'; }
 .cv address, .cv p { font-size: 20px; }
 .cv .download { float: right; font-size: 18px; text-transform: uppercase; }
