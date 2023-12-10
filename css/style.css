@@ -4,7 +4,6 @@ body {  font-family: 'Times New Roman', 'Times', 'serif';   min-height: 100vh; /
 
 img { 
   object-fit: contain;
-            width: auto;
 }
 
 a { text-decoration: none; color: #111111; }
