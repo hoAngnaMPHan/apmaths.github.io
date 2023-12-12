@@ -76,12 +76,12 @@ rnav ul {
 article {
   float: left;
   padding: 20px;
-  width: 60%;
+  width: 50%;
+  height: 100%;
   margin-left: 30%;
   background-color: #FFFFFF;
    /* only for demonstration, should be removed */
 }
-
 /* Clear floats after the columns */
 main::after {
   content: "";
