@@ -36,7 +36,15 @@ h4 { font-size: 18px; }
 
 /* Create two columns/boxes that floats next to each other */
 nav {
+  width: 100%;
+  background: #FFFFFF;
+  padding: 20px;
+}
+
+lnav {
+  float: right;
   width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
   background: #FFFFFF;
   padding: 20px;
 }
@@ -51,6 +59,11 @@ rnav {
 }
 /* Style the list inside the menu */
 nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+lnav ul {
   list-style-type: none;
   padding: 0;
 }
