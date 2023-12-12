@@ -1,1 +1,102 @@
-new
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', 'Times', 'serif';
+  min-height: 100%;
+  display: flex;
+            flex-direction: column;
+}
+
+/* Style the header */
+header {
+ width: 100%;
+  background-color: #666;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+a { text-decoration: none; color: #0000FF; }
+a:hover { text-decoration: none; color: #FF0000; }
+
+p, ul { font-size: 18px; line-height: 1.5; color: #333; }
+
+h1, h2, h3, h4 { font-family: 'Times New Roman', 'Times', 'serif'; }
+h1 { font-size: 24px;  }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+
+  float: left;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: transparent;
+  padding: 20px;
+  position: fixed;
+}
+
+rnav {
+
+  float: right;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #FFFFFF;
+  padding: 20px;
+}
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+rnav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+article {
+
+  float: left;
+  padding: 20px;
+  width: 60%;
+  margin-left: 30%;
+  background-color: #FFFFFF;
+   /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 600px){rnav{display: none;}
+}
+
