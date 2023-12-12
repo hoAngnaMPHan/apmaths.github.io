@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', 'Times', 'serif';
+  min-height: 100%;
+  display: flex;
+            flex-direction: column;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width:100%;
+   position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Style the header */
+header {
+ width: 100%;
+  background-color: #666;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  
+}
+
+a { text-decoration: none; color: #0000FF; }
+a:hover { text-decoration: none; color: #FF0000; }
+
+p, ul { font-size: 18px; line-height: 1.5; color: #333; }
+
+h1, h2, h3, h4 { font-family: 'Times New Roman', 'Times', 'serif'; }
+h1 { font-size: 24px;  }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+
+
+nav {
+  width: 100%;
+  float: left;
+    overflow: hidden;
+
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Create two columns/boxes that floats next to each other */
+
+lnav {
+
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: transparent;
+  padding: 20px;
+  position: fixed;
+}
+
+rnav {
+
+  float: right;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+/* Style the list inside the menu */
+lnav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+rnav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+article {
+
+  float: left;
+  padding: 20px;
+  width: 50%;
+  height: 100%;
+  margin-left: 30%;
+  background-color: #FFFFFF;
+   /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 600px){rnav{display: none;}
+}
+
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>Cities</h2>
+  <nav>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+</header>
+
+<section>
+  <lnav>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </lnav>
+  
+  <article>
+   Giữa \(x^2+2x+3x\)
+   sfcs
+   cscsc
+   cscsc
+   scs
+   cs
+   c
+   sc
+   sc
+   s
+   cs
+   c
+   sc
+Lỗi sạc được đánh giá là một trong những sự cố lâu được khắc phục nhất trên iPhone. Từ đầu tháng 10, nhiều người dùng iPhone 15 phát hiện thiết bị của họ bị nóng, bất ngờ chuyển sang chế độ khôi phục dữ liệu với màn hình trắng. Số khác cho biết chip NFC trên iPhone 15 không hoạt động khiến không thể dùng Apple Pay, Apple Wallet hay mở khóa xe. Apple từng sửa lỗi một lần trên bản iOS 17.1.1 nhưng không triệt để.
+
+Trên iOS 17.2, Apple bổ sung hàng loạt tính năng mới, trong đó được chú ý nhất là Journal (Nhật ký), được giới thiệu lần đầu tại WWDC 2023 hồi tháng 6. Đây là ứng dụng mới cho phép người dùng viết về những gì đã trải nghiệm trong đời, với các tính năng gồm đề xuất viết nhật ký, gom nhóm sự kiện, đánh dấu khoảnh khắc quan trọng trong cuộc đời mình, thông báo thông minh giúp người dùng duy trì thói quen viết nhật ký, bảo mật bằng Touch ID hoặc Face ID, đồng bộ hóa và mã hóa nội dung trên iCloud.
+
+Với nút Action trên iPhone 15 Pro và 15 Pro Max, Apple bổ sung chức năng dịch nhanh cụm từ hoặc dịch nội dung trò chuyện bằng hai ngôn ngữ khác nhau. Cũng trên dòng Pro, camera có thêm chức năng quay video để dùng trong không gian ba chiều của Apple Vision Pro, cũng như cải thiện tốc độ lấy nét khi chụp vật thể nhỏ ở xa.
+
+Trên ứng dụng Messages, Apple thêm mũi tên cập nhật giúp người dùng di chuyển dễ dàng đến tin nhắn chưa đọc đầu tiên chỉ với một cú nhấn. Trình nhắn tin cũng bổ sung tùy chọn nhãn dán trong menu ngữ cảnh, thêm memoji mới, cảnh báo với các tin nhắn chứa mã xác minh dịch vụ nhằm giúp người dùng cẩn thận hơn, tránh bị hacker lợi dụng để đánh cắp.
+
+Ứng dụng thời tiết thêm chức năng theo dõi lượng mưa, giúp nắm bắt được tình hình mưa và tuyết trong vòng 10 ngày; ảnh chụp nhanh bản đồ gió giúp theo dõi hướng gió và tốc độ gió trong 24h; và lịch theo dõi giai đoạn của mặt trăng ở bất kỳ lúc nào trong tháng.
+   c
+   sc
+  </article>
+  
+  <rnav> Phải</rnav>
+</section>
+
+
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
