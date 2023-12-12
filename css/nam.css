@@ -76,7 +76,7 @@ article {
 }
 
 /* Clear floats after the columns */
-section::after {
+main::after {
   content: "";
   display: table;
   clear: both;
