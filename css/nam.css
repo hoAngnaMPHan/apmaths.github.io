@@ -36,12 +36,9 @@ h4 { font-size: 18px; }
 
 /* Create two columns/boxes that floats next to each other */
 nav {
-  
   width: 20%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: transparent;
+  background: #FFFFFF;
   padding: 20px;
-  position: fixed;
 }
 
 rnav {
