@@ -51,12 +51,12 @@ h4 { font-size: 18px; }
   .main{margin-left: 5px;}
 }
 
-nav {position: fixed;   top: 0; background-color: #FFFFFF;
+topnav {position: fixed;   top: 0; background-color: #FFFFFF;
     }
 
-nav ul, footer ul { font-size: 18px; font-family: 'Times New Roman', 'Times', 'serif'; padding: 0px; list-style: none; font-weight: bold; }
+topnav ul, footer ul { font-size: 18px; font-family: 'Times New Roman', 'Times', 'serif'; padding: 0px; list-style: none; font-weight: bold; }
 
-nav ul li, footer ul li { display: inline; margin-right: 18px; }
+topnav ul li, footer ul li { display: inline; margin-right: 18px; }
 
 
 footer { border-top: 1px solid #d5d5d5; font-size: 14px; }
