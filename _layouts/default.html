@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+   {% include head.html %}
+<body>
+
+<div class="topnav">
+   {% include topnav.html %}
+</div>
+
+<section>
+  <nav>
+    {% include nav.html %}
+  </nav>
+  
+  <div class="main">
+     <div class="container">
+
+           {{ content }}
+         
+      </div>
+  </div>
+  
+  
+  <div class="rnav">
+  </div>
+   
+</section>
+
+<footer>
+   {% include footer.html %} 
+</footer>
+
+</body>
+</html> 
+  
