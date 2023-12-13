@@ -56,6 +56,7 @@ a:hover { text-decoration: none; color: #808000;}
   background: #10345A;
   height: 44px;
 }
+@media only screen(max-width:330px){ .menu-wrap{ height: auto;}}
 .menu {
   width: 100%;
   margin: 0px;
