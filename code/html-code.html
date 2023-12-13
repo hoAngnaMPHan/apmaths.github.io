@@ -4,7 +4,7 @@
 <title>HTML Editor</title>
 <meta name="viewport" content="width=device-width">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta property="og:description" content="HTML editor allows you to edit code and view the result in your browser">
 
 <link rel="icon" href="/">
@@ -692,13 +692,17 @@ body.darktheme ::-webkit-scrollbar-thumb:hover {background-color: #aaaaaa;backgr
 <div class="trytopnav">
 <div class="w3-bar" style="overflow:auto">
 
-  <a  href="https://apmaths.github.io" target="_blank" title="Back Home" style="margin-top:-2px;">Back home</a>
+  <a  href="https://apmaths.github.io" target="_blank" title="Back Home" style="margin-top:-2px;"><i class="fa fa-home" aria-hidden="true"></i>
+</a>
  
-  <a href="javascript:void(0);" onclick="spaceIt.showDialog()" title="Save code" style="margin-top:-2px;">Save</a>
+  <a href="javascript:void(0);" onclick="spaceIt.showDialog()" title="Save code" style="margin-top:-2px;"><i class="fa fa-floppy-o" aria-hidden="true"></i>
+</a>
 
-  <a href="javascript:void(0);" onclick="restack(currentStack)" title="Change Orientation" style="margin-top:-2px;">Orientation</a>
+  <a href="javascript:void(0);" onclick="restack(currentStack)" title="Change Orientation" style="margin-top:-2px;"><i class="fa fa-refresh" aria-hidden="true"></i>
+</a>
 	
-  <a href="javascript:void(0);" onclick="retheme()" title="Change Theme"  style="margin-top:-2px;">Dark/Light</a>
+  <a href="javascript:void(0);" onclick="retheme()" title="Change Theme"  style="margin-top:-2px;"><i class="fa fa-adjust" aria-hidden="true"></i>
+</a>
 
   <button id="runbtn" class="w3-button w3-bar-item w3-hover-white w3-hover-text-green ga-tryit" onclick="submitTryit(1);uic_r_p();">Run &#10095;</button>
 
