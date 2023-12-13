@@ -51,7 +51,7 @@ a:hover { text-decoration: none; color: #808000;}
 
 .menu-wrap {
   position: sticky;
-  z-index: 4;
+  z-index: 5;
   top: 0px;
   width: 100%;
   text-align: left;
