@@ -92,12 +92,12 @@ section::after {
 
 /* Style the footer */
 footer {
-  background-color: ##000000;
+  background-color: #000000;
   padding: 10px;
   text-align: center;
   margin-bottom: 0;
   font-size: 14px;
-  text-color: #FFFFFF;
+  color: #FFFFFF;
   text-decoration: none;
   
 }
