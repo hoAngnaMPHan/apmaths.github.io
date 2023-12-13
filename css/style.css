@@ -40,7 +40,7 @@ h4 { font-size: 18px; }
   font-size: 18px;/* Increased text to enable scrolling */
   padding: 0px 10px; 
   margin-right: 5%;
-  height: 300px;
+  height: 100%;
 }
 
 .vfill{  flex: 1; /* Mở rộng nội dung để chiếm hết không gian còn lại */}     
@@ -51,12 +51,12 @@ h4 { font-size: 18px; }
   .main{margin-left: 5px;}
 }
 
-topnav {position: fixed;   top: 0; background-color: #FFFFFF;
+.topnav {position: fixed;   top: 0; background-color: #FFFFFF;
     }
 
-topnav ul, footer ul { font-size: 18px; font-family: 'Times New Roman', 'Times', 'serif'; padding: 0px; list-style: none; font-weight: bold; }
+.topnav ul, footer ul { font-size: 18px; font-family: 'Times New Roman', 'Times', 'serif'; padding: 0px; list-style: none; font-weight: bold; }
 
-topnav ul li, footer ul li { display: inline; margin-right: 18px; }
+.topnav ul li, footer ul li { display: inline; margin-right: 18px; }
 
 
 footer { border-top: 1px solid #d5d5d5; font-size: 14px; }
