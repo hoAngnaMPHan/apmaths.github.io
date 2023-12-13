@@ -125,6 +125,26 @@ footer {
 nav,  .rnav {display: none;}
  
 }
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+  
 </style>
 </head>
 <body>
@@ -139,6 +159,11 @@ nav,  .rnav {display: none;}
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
+
+   <form action="/search" method="get">
+            <input type="text" id="search" name="search" placeholder="Tìm kiếm...">
+            <button type="submit">Tìm kiếm</button>
+        </form>
 </div>
 
 <section>
