@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -25,42 +23,6 @@
 <script src='/lib/codemirror.js'></script>
 <script src='/lib/codemirror_jsx.js'></script>
 
-<!-- Google Tag Manager -->
-<script>
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KTCFC3S');
-
-var subjectFolder = location.pathname;
-subjectFolder = subjectFolder.replace("/", "");
-if (subjectFolder.startsWith("python/") == true ) {
-  if (subjectFolder.includes("/numpy/") == true ) {
-    subjectFolder = "numpy/"
-  } else if (subjectFolder.includes("/pandas/") == true ) {
-      subjectFolder = "pandas/"
-  } else if (subjectFolder.includes("/scipy/") == true ) {
-      subjectFolder = "scipy/"
-  }
-}
-subjectFolder = subjectFolder.substr(0, subjectFolder.indexOf("/"));
-</script>
-<!-- End Google Tag Manager -->
-
-<script src="/lib/uic.js?v=1.0.5"></script>
-<script data-cfasync="false" type="text/javascript">
-var k42 = false;
-// GPT slots
-var gptAdSlots = [];
-window.googletag = window.googletag || { cmd: [] };
-googletag.cmd.push(function() {
-  googletag.pubads().setTargeting("page_section", subjectFolder);
-
-});
-k42 = true;
-
-</script>
 <script data-cfasync="false" type="text/javascript">
     window.snigelPubConf = {
     "adengine": {
