@@ -114,7 +114,12 @@ footer {
   text-align: center;
   color: white;
   margin-bottom: 0;
+ text-decoration: none;
 }
+footer ul { padding: 0px; list-style: none; font-weight: bold; }
+footer ul li { display: inline; margin-right: 20px; }
+
+   
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 800px) {
@@ -171,9 +176,7 @@ nav,  .rnav {display: none;}
   </div>
 </section>
 
-<footer>
-  <p>Footer</p>
-</footer>
+{% include footer.html %}
 
 </body>
 </html>
