@@ -689,7 +689,7 @@ body.darktheme ::-webkit-scrollbar-thumb:hover {background-color: #aaaaaa;backgr
 -->
 <div id='breadcrumb'>
 <ul>
-<li>Tryit: HTML Worker</li>
+<li>Tryit: HTML Worker</li></ul>
 	 <a id="tryhome" href="/" target="_blank" title="w3schools.com Home" class="w3-button w3-bar-item topnav-icons fa fa-home ga-tryit" style="margin-top:-2px;"></a>
   <a href="javascript:void(0);" onclick="openMenu()" id="menuButton" title="Open Menu" class="w3-dropdown-click w3-button w3-bar-item topnav-icons fa fa-menu ga-tryit" style="margin-top:-2px;"></a>
 
@@ -697,7 +697,26 @@ body.darktheme ::-webkit-scrollbar-thumb:hover {background-color: #aaaaaa;backgr
 
   <a href="javascript:void(0);" onclick="restack(currentStack)" title="Change Orientation" class="w3-button w3-bar-item w3-hide-small topnav-icons fa fa-rotate ga-tryit" style="margin-top:-2px;"></a>
   <a href="javascript:void(0);" onclick="retheme()" title="Change Theme" class="w3-button w3-bar-item topnav-icons fa fa-adjust ga-tryit" style="margin-top:-2px;"></a>
-</ul>
+
+	 <div id="navbarDropMenu" class="w3-dropdown-content w3-bar-block w3-border" style="z-index:5">
+    <span onclick="openMenu()" class="w3-button w3-display-topright w3-transparent ws-hover-black" 
+	    title="Close Menu" style="font-weight:bold;padding-top:10px;padding-bottom:11px;">&times;</span>
+    <div class="w3-bar-block">
+      <a class="w3-bar-item w3-button ga-tryit" href='javascript:void(0);'
+	      title="Change Orientaton" onclick="openMenu();restack(currentStack)"><i class="fa fa-rotate" 
+		 style="font-size:26px;margin-left:-4px;margin-right:8px"></i><span style="position:relative;top:-4px;left:2px;">Change Orientation</span></a>
+      
+        <a class="w3-bar-item w3-button ga-tryit" href="javascript:void(0);" 
+		title="Save" onclick="openMenu();spaceIt.showDialog()"><i class="fa fa-save" 
+		style="font-size:26px;margin-right:10px;"></i><span style="position:relative;top:-4px;left:2px;">Save Code</span></a>
+      
+      <a class="w3-bar-item w3-button ga-tryit" href='javascript:void(0);' 
+	      title="Change Theme" onclick="openMenu();retheme()"><i class="fa fa-adjust" 
+		 style="font-size:26px;margin-right:8px"></i><span style="position:relative;top:-4px;left:2px;">Change Theme, Dark/Light</span></a>
+          
+    </div>
+    
+  </div>
 </div>
 
 <div class="trytopnav">
@@ -715,20 +734,9 @@ body.darktheme ::-webkit-scrollbar-thumb:hover {background-color: #aaaaaa;backgr
 
 <div id="shield"></div>
 
-<a href="javascript:void(0)" id="dragbar"></a>
+
 <div id="container">
-  <div id="navbarDropMenu" class="w3-dropdown-content w3-bar-block w3-border" style="z-index:5">
-    <span onclick="openMenu()" class="w3-button w3-display-topright w3-transparent ws-hover-black" title="Close Menu" style="font-weight:bold;padding-top:10px;padding-bottom:11px;">&times;</span>
-    <div class="w3-bar-block">
-      <a class="w3-bar-item w3-button ga-tryit" href='javascript:void(0);' title="Change Orientaton" onclick="openMenu();restack(currentStack)"><i class="fa fa-rotate" style="font-size:26px;margin-left:-4px;margin-right:8px"></i><span style="position:relative;top:-4px;left:2px;">Change Orientation</span></a>
-      
-        <a class="w3-bar-item w3-button ga-tryit" href="javascript:void(0);" title="Save" onclick="openMenu();spaceIt.showDialog()"><i class="fa fa-save" style="font-size:26px;margin-right:10px;"></i><span style="position:relative;top:-4px;left:2px;">Save Code</span></a>
-      
-      <a class="w3-bar-item w3-button ga-tryit" href='javascript:void(0);' title="Change Theme" onclick="openMenu();retheme()"><i class="fa fa-adjust" style="font-size:26px;margin-right:8px"></i><span style="position:relative;top:-4px;left:2px;">Change Theme, Dark/Light</span></a>
-          
-    </div>
-    
-  </div>
+ 
   <div id="menuOverlay" class="w3-overlay w3-transparent" style="cursor:pointer;z-index:4"></div>
   <div id="textareacontainer">
     <div id="textarea">
