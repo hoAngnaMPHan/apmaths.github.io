@@ -30,7 +30,7 @@
 }
 uic_r_a()
 </script>
-<script async data-cfasync="false" src="https://cdn.snigelweb.com/adengine/w3schools.com/loader.js" type="text/javascript"></script>
+<script async data-cfasync="false" src="/assests/js/loader.js" type="text/javascript"></script>
 <script>
 if (window.addEventListener) {              
     window.addEventListener("resize", browserResize);
@@ -87,6 +87,7 @@ top:0px;
 }
 .trytopnav a,.trytopnav button {
   color:#999999;
+	text-decoration: none;
 }
 .w3-bar .w3-bar-item:hover {
   color:#757575 !important;
@@ -691,12 +692,13 @@ body.darktheme ::-webkit-scrollbar-thumb:hover {background-color: #aaaaaa;backgr
 -->
 <div class="trytopnav">
 <div class="w3-bar" style="overflow:auto">
-	<a href="https://apmaths.github.io"><i class="fa fa-refresh" aria-hidden="true"></i> </a>
-  <a id="tryhome" href="https://apmaths.github.io" target="_blank" title="Back Home" style="margin-top:-2px;">Home</a>
+
+  <a  href="https://apmaths.github.io" target="_blank" title="Back Home" style="margin-top:-2px;">Back home</a>
  
   <a href="javascript:void(0);" onclick="spaceIt.showDialog()" title="Save code" style="margin-top:-2px;">Save</a>
 
   <a href="javascript:void(0);" onclick="restack(currentStack)" title="Change Orientation" style="margin-top:-2px;">Orientation</a>
+	
   <a href="javascript:void(0);" onclick="retheme()" title="Change Theme"  style="margin-top:-2px;">Dark/Light</a>
 
   <button id="runbtn" class="w3-button w3-bar-item w3-hover-white w3-hover-text-green ga-tryit" onclick="submitTryit(1);uic_r_p();">Run &#10095;</button>
