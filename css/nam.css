@@ -34,6 +34,7 @@ body {
   background-color: #04AA6D;
   color: white;
 }
+.topnav ul li, footer ul li { display: inline; margin-right: 18px; }
 
 /* Create two columns/boxes that floats next to each other */
 nav {
@@ -43,6 +44,8 @@ nav {
   background: #ccc;
   padding: 20px;
 }
+
+
 
 /* Style the list inside the menu */
 nav ul {
@@ -88,6 +91,19 @@ footer {
   color: white;
   margin-bottom: 0;
 }
+
+/* Blog */
+ul.posts { margin: 20px auto 40px; font-size: 18px; }
+ul.posts li { list-style: none; }
+
+
+/* CV */
+.cv { margin: 0px 0px 60px; }
+.cv h1 { font-size: 30px; }
+.cv h2 { font-size: 25px; }
+.cv address, .cv .download { font-family: 'Times New Roman', 'Times', 'serif'; }
+.cv address, .cv p { font-size: 20px; }
+.cv .download { float: right; font-size: 18px; text-transform: uppercase; }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 800px) {
