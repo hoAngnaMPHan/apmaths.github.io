@@ -46,6 +46,92 @@ a:hover { text-decoration: none; color: #808000;}
   color: white;
 }
 
+/*Menu mới*/
+.menu-wrap {
+  position: sticky;
+  z-index: 4;
+  top: 0;
+  width: 100%;
+  text-align: left;
+  background: #10345A;
+  height: 41px;
+}
+.menu {
+  width: 100%;
+  margin: 0px;
+  margin-left: -30px;
+  text-align: left;
+}
+.menu li {
+  margin: 0px;
+  list-style: none;
+}
+.menu a {
+  transition: all linear 0.15s;
+  color: white;
+}
+.menu li:hover > a,
+.menu .current-item > a {
+  text-decoration: none;
+  color: white;
+  background-color: #FF6600;
+}
+.menu .arrow {
+  font-size: 11px;
+  line-height: 0%;
+}
+/*----- Top Level -----*/
+
+.menu > ul > li {
+  float: left;
+  display: inline-block;
+  position: relative;
+  font-size: 19px;
+}
+.menu > ul > li > a {
+  padding: 10px 10px;
+  display: inline-block;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+.menu > ul > li:hover > a,
+.menu > ul > .current-item > a {
+  background: #10345A;
+  color: #FF6600;
+}
+/*----- Bottom Level -----*/
+
+.menu li:hover .sub-menu {
+  z-index: 1;
+  opacity: 1;
+}
+.sub-menu {
+  width: 150px;
+  padding: 5px 0px;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity linear 0.15s;
+  background: gray;
+}
+.sub-menu li {
+  display: block;
+  font-size: 16px;
+}
+.sub-menu li a {
+  padding: 5px 5px;
+  display: block;
+  text-decoration: none;
+}
+.sub-menu li a:hover,
+.sub-menu .current-item a {
+  background: #10345A;
+  color: #FF6600;
+}
+
+
 
 
 /* Create two columns/boxes that floats next to each other */
