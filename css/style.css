@@ -47,10 +47,12 @@ a:hover { text-decoration: none; color: #808000;}
 }
 
 /*Menu mới*/
+
+
 .menu-wrap {
   position: sticky;
   z-index: 4;
-  top: 0;
+  top: 0px;
   width: 100%;
   text-align: left;
   background: #10345A;
@@ -60,9 +62,9 @@ a:hover { text-decoration: none; color: #808000;}
 .menu {
   width: 100%;
   margin: 0px;
-  margin-left: 0px;
   text-align: left;
 }
+
 .menu li {
   margin: 0px;
   list-style: none;
@@ -102,9 +104,20 @@ a:hover { text-decoration: none; color: #808000;}
 }
 /*----- Bottom Level -----*/
 
+/* ADD THESE */
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
 .menu li:hover .sub-menu {
   z-index: 1;
-  opacity: 1;
+  display: block; /* ADD ME */
+  -webkit-animation: fadeIn 0.15s; /* ADD ME */
+  animation: fadeIn 0.15s; /* ADD ME */
 }
 .sub-menu {
   width: 150px;
@@ -113,16 +126,15 @@ a:hover { text-decoration: none; color: #808000;}
   top: 100%;
   left: 0px;
   z-index: 0;
-  opacity: 0;
-  transition: opacity linear 0.15s;
   background: gray;
+  display: none; /* ADD ME */
 }
 .sub-menu li {
   display: block;
   font-size: 16px;
 }
 .sub-menu li a {
-  padding: 5px 5px;
+  padding: 5px 10px;
   display: block;
   text-decoration: none;
 }
@@ -131,7 +143,6 @@ a:hover { text-decoration: none; color: #808000;}
   background: #10345A;
   color: #FF6600;
 }
-
 
 
 
