@@ -23,3 +23,20 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md
+      tags_allowed:
+        - Bevel gears
+        - Cam contacts
+        - Cylindrical gears
+        - Developer mode
+        - Examples
+        - GUI
+        - Journal bearings
+        - Microsim
+        - Piston
+        - Rolling contacts
+        - Thrust bearings
