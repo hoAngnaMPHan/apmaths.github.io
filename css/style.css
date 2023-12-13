@@ -8,7 +8,7 @@ body {
 }
 
 a { text-decoration: none; color: #000333; }
-a:hover { text-decoration: underline; }
+a:hover { text-decoration: none; }
 
  .header {
   background-color: #f1f1f1;
