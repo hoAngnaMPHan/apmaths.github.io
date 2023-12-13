@@ -54,7 +54,7 @@ a:hover { text-decoration: none; color: #808000;}
   width: 100%;
   text-align: left;
   background: #10345A;
-  height: 42px;
+  height: 44px;
 }
 .menu {
   width: 100%;
@@ -166,7 +166,7 @@ nav ul {
 .main {
   float: left;
   padding: 20px;
-  width: 56%;
+  width: 55%;
   background-color: #f1f1f1;
   height: 100%; /* only for demonstration, should be removed */
 }
