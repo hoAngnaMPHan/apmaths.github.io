@@ -149,6 +149,7 @@ a:hover { text-decoration: none; color: #808000;}
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
+  margin-top: 15px;
   width: 22%;
   height: 100%; /* only for demonstration, should be removed */
   background: #ccc;
@@ -164,6 +165,7 @@ nav ul {
 .rnav {
   float: right;
   width: 22%;
+  margin-top: 15px;
   height: 100%; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
@@ -178,6 +180,7 @@ nav ul {
 .main {
   float: left;
   padding: 20px;
+  margin-top: 15px;
   width: 56%;
   background-color: #f1f1f1;
   height: 100%; /* only for demonstration, should be removed */
