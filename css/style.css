@@ -58,6 +58,7 @@ nav a {
 
 nav a:hover {
     background-color: #FF6600;
+ color: white;
 }
 
 nav ul ul {
@@ -75,7 +76,8 @@ nav ul ul {
 
 nav ul li:hover > ul {
     display: block;
-    background-color: #10345A;
+    background-color: rgba(16,52,90,0.9);
+    
 }
 
 nav ul ul li {
@@ -90,7 +92,7 @@ nav ul ul a {
 }
 
 nav ul ul a:hover {
-    background-color:  #FF6600;
+    background-color: rgb(255,102,0,0.8);
     color: white;
 }
 
