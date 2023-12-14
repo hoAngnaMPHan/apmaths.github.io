@@ -210,24 +210,12 @@ footer ul li { display: inline; margin-right: 20px; }
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 800px) {
   .rnav {display: none;}
-  nav {
-    width: 25%;
-    height: auto;
-  }
-  .main {
-    width: 68%;
-    height: auto;
-  }
-  
- 
+  nav {    width: 25%;    height: auto;  }
+  .main {    width: 68%;    height: auto;  }
 }
 @media (max-width: 600px) {
-   .main {
-    width: 100%;
-    height: auto;
-  }
-nav,  .rnav {display: none;}
- 
+   .main {    width: 100%;    height: auto;  }
+nav,  .rnav {display: none;} 
 }
 
 /* Blog */
