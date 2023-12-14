@@ -6,6 +6,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 a { text-decoration: none; color: #0000ff ; }
@@ -148,21 +150,20 @@ a:hover { text-decoration: none; color: #808000;}
 
 
 /* Create two columns/boxes that floats next to each other */
-.column {
+  .column {
             box-sizing: border-box;
             padding: 20px;
-            border: 0px solid #ddd;
+            border: 1px solid #ddd;
+            flex: 1; /* Mỗi cột chiếm đều không gian */
+            min-width: 0; /* Fix cho lỗi trên Firefox */
         }
 
-        .left, .center {
-            float: left;
-            width: 33.33%;
+        .center {
+            background-color: #f2f2f2; /* Một màu nền khác cho cột trung tâm */
         }
 
-        .right {
-            float: left;
-            width: 33.33%;
-            display: block; /* Hiển thị mặc định */
+        .clearfix {
+            clear: both;
         }
 
         @media (max-width: 800px) {
@@ -175,14 +176,6 @@ a:hover { text-decoration: none; color: #808000;}
             .left {
                 display: none; /* Ẩn cột trái khi độ rộng màn hình dưới 500px */
             }
-        }
-
-        .center {
-            background-color: #f2f2f2; /* Một màu nền khác cho cột trung tâm */
-        }
-
-        .clearfix {
-            clear: both;
         }
 
 
