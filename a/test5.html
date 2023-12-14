@@ -24,10 +24,9 @@
         nav {
             background-color: #444;
             color: white;
-            padding: 10px;
+            padding: 5px;
             text-align: center;
             position: sticky;
-            width: 100%;
             top: 0;
             z-index: 1000;
         }
@@ -68,10 +67,7 @@
         .container {
             display: flex;
             justify-content: space-between;
-            margin: 0 auto;
-           
-            padding: 20px;
-            margin-top: 60px; /* Để giữ khoảng trống cho menu cố định */
+            margin: 5px 5px 0 5px; /* Điều chỉnh margin-top của container */
         }
 
         .column {
@@ -79,15 +75,12 @@
             padding: 20px;
             border: 1px solid #ddd;
             min-width: 0;
-        }
-
-        .left, .center, .right {
-            flex: 1;
-            margin: 0 10px;
+            margin: 0 5px; /* Điều chỉnh margin giữa các cột */
         }
 
         .left {
             background-color: #f2f2f2;
+            width: 20%;
         }
 
         .center {
@@ -97,6 +90,7 @@
 
         .right {
             background-color: #f2f2f2;
+             width: 20%;
         }
 
         footer {
@@ -122,18 +116,19 @@
             text-decoration: none;
             color: white;
         }
-
+        
+        
          @media (max-width: 800px) {
             .right {
                 display: none;
             }
 
             .left {
-                width: 30%;
+                width: 25%;
             }
 
             .center {
-                width: 70%;
+                width: 75%;
             }
         }
 
@@ -146,6 +141,21 @@
                 width: 100%;
             }
         }
+        @media only screen and (max-width: 400px) {
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav li {
+            margin: 5px 0;
+        }
+
+        nav ul ul {
+            position: static;
+            display: none;
+        }
+    }
     </style>
 </head>
 <body>
@@ -172,43 +182,7 @@
     <div class="container">
         <div class="column left">
             <h2>Left Column</h2>
-           
-Home
-Following
-Answer
-Spaces
-12
-Notifications
-Search Quora
-Profile photo for Nam Hoang
-Is it possible to create a search feature in GitHub static pages?
-Ad by JetBrains
-Intelligent CI/CD tool for fast, reliable development at scale.
-Streamline your CI/CD flow with TeamCity. Deliver high-quality code and optimize your process by 40%.
-Sort
-Profile photo for Jérôme Cukier
-Jérôme Cukier
- · 
-Follow
-software engineer2y
-That is hosted on Github pages: https://uber.github.io/react-vis/search
-
-How it worked is that all pages are stored somewhere as markdown. The website eventually renders them in a UI, applies styles, adds a header and a footer etc.
-
-There is a search component who compares the typed query to the content of this markdown. It’s pretty easy to figure out how many pages contain the query, and a very fast … (more)
-Sponsored by DataSpy Group
-How do I get latest source of my competitor's ad strategy?
-Different insights with 270 million ad creatives, 5 million advertisers and 60 million e-store products.
-Related questions
-Should I create a GitHub account?
-How is GitHub code search implemented?
-What is GitHub?
-What are some alternatives to GitHub Pages?
-Is it possible to create a login system for GitHub pages?
-Can you trust everything on GitHub not to be malicious?
-Add question
-Advertisement
-
+            <p>This is the left column content.</p>
         </div>
 
         <div class="column center">
@@ -218,43 +192,7 @@ Advertisement
 
         <div class="column right">
             <h2>Right Column</h2>
-            
-Home
-Following
-Answer
-Spaces
-12
-Notifications
-Search Quora
-Profile photo for Nam Hoang
-Is it possible to create a search feature in GitHub static pages?
-Ad by JetBrains
-Intelligent CI/CD tool for fast, reliable development at scale.
-Streamline your CI/CD flow with TeamCity. Deliver high-quality code and optimize your process by 40%.
-Sort
-Profile photo for Jérôme Cukier
-Jérôme Cukier
- · 
-Follow
-software engineer2y
-That is hosted on Github pages: https://uber.github.io/react-vis/search
-
-How it worked is that all pages are stored somewhere as markdown. The website eventually renders them in a UI, applies styles, adds a header and a footer etc.
-
-There is a search component who compares the typed query to the content of this markdown. It’s pretty easy to figure out how many pages contain the query, and a very fast … (more)
-Sponsored by DataSpy Group
-How do I get latest source of my competitor's ad strategy?
-Different insights with 270 million ad creatives, 5 million advertisers and 60 million e-store products.
-Related questions
-Should I create a GitHub account?
-How is GitHub code search implemented?
-What is GitHub?
-What are some alternatives to GitHub Pages?
-Is it possible to create a login system for GitHub pages?
-Can you trust everything on GitHub not to be malicious?
-Add question
-Advertisement
-
+            <p>This is the right column content.</p>
         </div>
     </div>
 
@@ -265,6 +203,7 @@ Advertisement
             <li><a href="#">Link 3</a></li>
         </ul>
     </footer>
+    
 
 </body>
 </html>
