@@ -6,32 +6,24 @@
 
    {% include header.html %}
 
- {% include menu.html %}
+<nav>
+         {% include menu.html %}
+    </nav>
 
-
-  <div class="column left">
+    <div class="column left">
         <h2>Left Column</h2>
         <p>Left column content goes here.</p>
-    {% include nav.html %}
     </div>
 
     <div class="column center">
         <h2>Center Column</h2>
-      <div class="container">
-
-           {{ content }}
-         
-      </div>
+        {{ content }}
     </div>
 
     <div class="column right">
         <h2>Right Column</h2>
         <p>Right column content goes here.</p>
-     {% include rnav.html %}
-    
     </div>
-
-    <div class="clearfix"></div>
   
   
 
