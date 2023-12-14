@@ -75,7 +75,7 @@ nav ul ul {
 
 nav ul li:hover > ul {
     display: block;
-    background-color: #FF6600;
+    background-color: #10345A;
 }
 
 nav ul ul li {
@@ -90,7 +90,7 @@ nav ul ul a {
 }
 
 nav ul ul a:hover {
-    background-color: #10345A;
+    background-color:  #FF6600;
     color: white;
 }
 
