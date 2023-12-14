@@ -13,9 +13,18 @@
             padding: 10px;
             text-align: center;
         }
+a {
+    color: #0000FF;
+    text-decoration: none; /* Loại bỏ gạch chân của liên kết */
+    transition: color 0.3s; /* Hiệu ứng chuyển màu khi đưa chuột vào */
+}
 
+/* Màu chữ của liên kết khi đưa chuột vào là olive */
+a:hover {
+    color: #808000;
+}
 
-      
+ /*Menu ở trên*/     
  nav {
     background-color: #10345A;
     color: white;
