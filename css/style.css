@@ -147,7 +147,7 @@ a:hover { text-decoration: none; color: #808000;}
 
 
 /* Create two columns/boxes that floats next to each other */
-nav {
+.nav {
   float: left;
   margin-top: 15px;
   width: 22%;
@@ -157,7 +157,7 @@ nav {
 }
 
 /* Style the list inside the menu */
-nav ul {
+.nav ul {
   list-style-type: none;
   padding: 0;
 }
@@ -181,7 +181,7 @@ nav ul {
   float: left;
   padding: 20px;
   margin-top: 15px;
-  margin-left: 0.5%;
+  
   width: 55%;
   background-color: #f1f1f1;
   
@@ -213,15 +213,24 @@ footer a { color: white;  text-decoration: none;
 footer a:hover { font-weight: 900;
 }
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media only screen and (max-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
-  .rnav {display: none;}
-  nav {    width: 25%;    height: auto;  }
-  .main {    width: 68%;    height: auto;  }
+@media screen and (max-width: 800px) {
+  .nav {
+    width: 30%;
+  }
+  .main {
+    width: 70%;
+  }
+  .column3{display: none;}
 }
-@media (max-width: 600px) {
-   .main {    width: 100%;    height: auto;  }
-nav,  .rnav {display: none;} 
+
+@media screen and (max-width: 500px) {
+  .main {
+    width: 100%;
+  }
+  .nav, .rnav {display: none;}
 }
+
+
 
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
