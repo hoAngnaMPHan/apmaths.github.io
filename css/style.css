@@ -14,16 +14,16 @@
             text-align: center;
         }
 
-        nav {
-            background-color: #444;
+      
+ nav {
+            background-color: #10345A;
             color: white;
             padding: 2px;
-            text-align: left;
+         
+    text-align: left;
             position: sticky;
             top: 0;
             z-index: 1000;
-        
-         
         }
 
         nav ul {
@@ -31,48 +31,54 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
         }
 
         nav li {
-            margin: 0 5px;
             position: relative;
         }
 
         nav a {
             text-decoration: none;
-         transition: all linear 0.15s;
             color: white;
-            padding: 5px;
+            padding: 10px;
             display: block;
+            transition: background-color 0.5s;
         }
-nav li:hover > a,
-nav .current-item > a {
-  text-decoration: none;
-  color: white;
-  background-color: #FF6600;
-}
-nav .arrow {
-  font-size: 11px;
-  line-height: 0%;
-}
+
+        nav a:hover {
+            background-color: #FF6600;
+        }
 
         nav ul ul {
             display: none;
             position: absolute;
             top: 100%;
             left: 0;
-width: 100px;
-            background-color: #555;
-            border: 1px solid #444;
+            background-color: #FF6600;
+            border: 1px solid #10345A;
+            transition: background-color 0.5s;
         }
 
         nav ul li:hover > ul {
-           /* display: inherit; Theo Chat GPT*/
-           float: left;
-  display: inline-block;
-  position: relative;
-  font-size: 19px;
+            display: block;
+            background-color: #FF6600;
+        }
+
+        nav ul ul li {
+            width: 100%;
+            text-align: left;
+        }
+
+        nav ul ul a {
+            padding: 10px;
+            color: white;
+            transition: background-color 0.5s, color 0.5s;
+        }
+
+        nav ul ul a:hover {
+            background-color: #10345A;
+            color: white;
         }
 
         .container {
