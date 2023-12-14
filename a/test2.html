@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout with Header and Menu</title>
+    <style>
+        /* (Các kiểu CSS như trước đó) */
+
+        .search-box {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-box input {
+            padding: 8px;
+            margin-right: 5px;
+        }
+
+        .search-box button {
+            padding: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <nav>
+        <!-- Các mục menu như trước đó -->
+
+        <div class="search-box">
+            <form action="/search" method="get"> <!-- Chỉnh action và method tùy vào yêu cầu của bạn -->
+                <input type="text" name="q" placeholder="Search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Các cột và phần còn lại của trang như trước đó -->
+
+</body>
+</html>
