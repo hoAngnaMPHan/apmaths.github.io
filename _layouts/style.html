@@ -10,20 +10,23 @@
          {% include menu.html %}
     </nav>
 
-    <div class="column left">
-        <h2>Left Column</h2>
-        <p>Left column content goes here.</p>
+   <div class="container">
+        <div class="column left">
+            <h2>Left Column</h2>
+            <p>This is the left column content.</p>
+        </div>
+
+        <div class="column center">
+            <h2>Center Column</h2>
+            {{ content }}
+        </div>
+
+        <div class="column right">
+            <h2>Right Column</h2>
+            <p>This is the right column content.</p>
+        </div>
     </div>
 
-    <div class="column center">
-        <h2>Center Column</h2>
-        {{ content }}
-    </div>
-
-    <div class="column right">
-        <h2>Right Column</h2>
-        <p>Right column content goes here.</p>
-    </div>
   
   
 
