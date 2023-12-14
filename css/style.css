@@ -16,70 +16,69 @@
 
       
  nav {
-            background-color: #10345A;
-            color: white;
-            padding: 2px;
-         
+    background-color: #10345A;
+    color: white;
+    padding: 0px;
+    text-align: center; /* Đặt canh trái cho menu */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    display: flex;
+    
+}
+
+nav li {
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.5s;
+}
+
+nav a:hover {
+    background-color: #FF6600;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    margin-top: 0.2px;
+    margin-left: 00px;
+    background-color: #FF6600;
+    border: 0px solid #10345A;
+    transition: background-color 0.5s;
+}
+
+nav ul li:hover > ul {
+    display: block;
+    background-color: #FF6600;
+}
+
+nav ul ul li {
+    width: 100%;
     text-align: left;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
+}
 
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: space-around;
-        }
+nav ul ul a {
+    padding: 10px;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
 
-        nav li {
-            position: relative;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: white;
-            padding: 10px;
-            display: block;
-            transition: background-color 0.5s;
-        }
-
-        nav a:hover {
-            background-color: #FF6600;
-        }
-
-        nav ul ul {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            background-color: #FF6600;
-            border: 1px solid #10345A;
-            transition: background-color 0.5s;
-        }
-
-        nav ul li:hover > ul {
-            display: block;
-            background-color: #FF6600;
-        }
-
-        nav ul ul li {
-            width: 100%;
-            text-align: left;
-        }
-
-        nav ul ul a {
-            padding: 10px;
-            color: white;
-            transition: background-color 0.5s, color 0.5s;
-        }
-
-        nav ul ul a:hover {
-            background-color: #10345A;
-            color: white;
-        }
+nav ul ul a:hover {
+    background-color: #10345A;
+    color: white;
+}
 
         .container {
             display: flex;
