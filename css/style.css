@@ -208,7 +208,7 @@ footer {
 footer ul { padding: 0px; list-style: none; font-weight: bold; }
 footer ul li { display: inline; margin-right: 20px; }
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 800px) {
+@media (max-width: 799px) {
   .rnav {display: none;}
   nav {    width: 25%;    height: auto;  }
   .main {    width: 68%;    height: auto;  }
