@@ -1,0 +1,119 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            width: 100%;
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 10px;
+            position: relative;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            display: block;
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #555;
+            border: 1px solid #444;
+        }
+
+        nav ul li:hover > ul {
+            display: inherit;
+        }
+
+        .column {
+            box-sizing: border-box;
+            padding: 20px;
+            border: 1px solid #ddd;
+            min-width: 0; /* Fix cho lỗi trên Firefox */
+        }
+
+        .left {
+            width: 22%;
+        }
+
+        .center {
+            width: 56%;
+            background-color: #f2f2f2; /* Một màu nền khác cho cột trung tâm */
+        }
+
+        .right {
+            width: 22%;
+        }
+
+        .footer {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        @media (max-width: 800px) {
+            .right {
+                display: none; /* Ẩn cột phải khi độ rộng màn hình dưới 800px */
+            }
+
+            .left {
+                width: 30%; /* Cột trái chiếm 30% khi cột phải ẩn */
+            }
+
+            .center {
+                width: 70%; /* Cột trung tâm chiếm 70% khi cột phải ẩn */
+            }
+        }
+
+        @media (max-width: 500px) {
+            .left {
+                display: none; /* Ẩn cột trái khi độ rộng màn hình dưới 500px */
+            }
+
+            .center {
+                width: 100%; /* Cột trung tâm chiếm 100% khi cột trái ẩn */
+            }
+        }
