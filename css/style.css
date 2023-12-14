@@ -18,10 +18,12 @@
             background-color: #444;
             color: white;
             padding: 2px;
-            text-align: center;
+            text-align: left;
             position: sticky;
             top: 0;
             z-index: 1000;
+        
+         
         }
 
         nav ul {
@@ -39,10 +41,21 @@
 
         nav a {
             text-decoration: none;
+         transition: all linear 0.15s;
             color: white;
             padding: 5px;
             display: block;
         }
+nav li:hover > a,
+nav .current-item > a {
+  text-decoration: none;
+  color: white;
+  background-color: #FF6600;
+}
+nav .arrow {
+  font-size: 11px;
+  line-height: 0%;
+}
 
         nav ul ul {
             display: none;
@@ -55,7 +68,11 @@ width: 100px;
         }
 
         nav ul li:hover > ul {
-            display: inherit;
+           /* display: inherit; Theo Chat GPT*/
+           float: left;
+  display: inline-block;
+  position: relative;
+  font-size: 19px;
         }
 
         .container {
