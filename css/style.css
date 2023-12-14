@@ -148,9 +148,9 @@ a:hover { text-decoration: none; color: #808000;}
 
 /* Create two columns/boxes that floats next to each other */
 .nav {
-  float: left;
-  margin-top: 15px;
-  width: 22%;
+    margin-top: 15px;
+  flex: 22%;
+  margin-left: 1%;
 
   background: #ccc;
   padding: 20px;
@@ -163,10 +163,9 @@ a:hover { text-decoration: none; color: #808000;}
 }
 
 .rnav {
-  float: right;
-  width: 22%;
+ flex: 22%;
   margin-top: 15px;
-  
+  margin-left: 1%;
   background: #ccc;
   padding: 20px;
 }
@@ -178,21 +177,21 @@ a:hover { text-decoration: none; color: #808000;}
 }
 
 .main {
-  float: left;
+  flex: 54%;
   padding: 20px;
   margin-top: 15px;
-  
-  width: 55%;
+  margin-left: 1%;
   background-color: #f1f1f1;
   
 }
 
 /* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
+.section {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
 }
+
 
 /* Style the footer */
 footer {
@@ -202,7 +201,7 @@ footer {
   margin-bottom: 0;
   font-size: 14px;
   color: #FFFFFF;
-  height: 50px;
+  height: 60px;
  
   
 }
@@ -213,24 +212,19 @@ footer a { color: white;  text-decoration: none;
 footer a:hover { font-weight: 900;
 }
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media screen and (max-width: 800px) {
-  .nav {
-    width: 30%;
-  }
-  .main {
-    width: 70%;
-  }
-  .column3{display: none;}
+@media (max-width: 800px) {
+  .rnav {
+  display: none;
 }
-
-@media screen and (max-width: 500px) {
-  .main {
-    width: 100%;
-  }
-  .nav, .rnav {display: none;}
 }
-
-
+@media (max-width: 500px) {
+  .section {
+    flex-direction: column;
+  }
+  .rnav, .nav {
+  display: none;
+}
+}
 
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
