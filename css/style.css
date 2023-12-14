@@ -154,12 +154,20 @@ a:hover { text-decoration: none; color: #808000;}
             box-sizing: border-box;
             padding: 20px;
             border: 1px solid #ddd;
-            flex: 1; /* Mỗi cột chiếm đều không gian */
             min-width: 0; /* Fix cho lỗi trên Firefox */
         }
 
+        .left {
+            width: 25%;
+        }
+
         .center {
+            width: 50%;
             background-color: #f2f2f2; /* Một màu nền khác cho cột trung tâm */
+        }
+
+        .right {
+            width: 25%;
         }
 
         .clearfix {
@@ -170,11 +178,23 @@ a:hover { text-decoration: none; color: #808000;}
             .right {
                 display: none; /* Ẩn cột phải khi độ rộng màn hình dưới 800px */
             }
+
+            .left {
+                width: 30%; /* Cột trái chiếm 30% khi cột phải ẩn */
+            }
+
+            .center {
+                width: 70%; /* Cột trung tâm chiếm 70% khi cột phải ẩn */
+            }
         }
 
         @media (max-width: 500px) {
             .left {
                 display: none; /* Ẩn cột trái khi độ rộng màn hình dưới 500px */
+            }
+
+            .center {
+                width: 100%; /* Cột trung tâm chiếm 100% khi cột trái ẩn */
             }
         }
 
