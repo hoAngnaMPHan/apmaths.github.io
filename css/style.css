@@ -5,6 +5,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  box-sizing: border-box;
 }
 
 a { text-decoration: none; color: #0000ff ; }
@@ -147,50 +148,42 @@ a:hover { text-decoration: none; color: #808000;}
 
 
 /* Create two columns/boxes that floats next to each other */
-.nav {
-    margin-top: 15px;
-  flex: 22%;
-  margin-left: 1%;
+.column {
+            box-sizing: border-box;
+            padding: 20px;
+            border: 0px solid #ddd;
+        }
 
-  background: #ccc;
-  padding: 20px;
-}
+        .left, .center {
+            float: left;
+            width: 33.33%;
+        }
 
-/* Style the list inside the menu */
-.nav ul {
-  list-style-type: none;
-  padding: 0;
-}
+        .right {
+            float: left;
+            width: 33.33%;
+            display: block; /* Hiển thị mặc định */
+        }
 
-.rnav {
- flex: 22%;
-  margin-top: 15px;
-  margin-left: 1%;
-  background: #ccc;
-  padding: 20px;
-}
+        @media (max-width: 800px) {
+            .right {
+                display: none; /* Ẩn cột phải khi độ rộng màn hình dưới 800px */
+            }
+        }
 
-/* Style the list inside the menu */
-.rnav ul {
-  list-style-type: none;
-  padding: 0;
-}
+        @media (max-width: 500px) {
+            .left {
+                display: none; /* Ẩn cột trái khi độ rộng màn hình dưới 500px */
+            }
+        }
 
-.main {
-  flex: 54%;
-  padding: 20px;
-  margin-top: 15px;
-  margin-left: 1%;
-  background-color: #f1f1f1;
-  
-}
+        .center {
+            background-color: #f2f2f2; /* Một màu nền khác cho cột trung tâm */
+        }
 
-/* Clear floats after the columns */
-.section {
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-}
+        .clearfix {
+            clear: both;
+        }
 
 
 /* Style the footer */
@@ -211,20 +204,7 @@ footer a { color: white;  text-decoration: none;
 }
 footer a:hover { font-weight: 900;
 }
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 800px) {
-  .rnav {
-  display: none;
-}
-}
-@media (max-width: 500px) {
-  .section {
-    flex-direction: column;
-  }
-  .rnav, .nav {
-  display: none;
-}
-}
+
 
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
