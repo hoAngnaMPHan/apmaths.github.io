@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Columns Layout with Dropdown Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+            position: relative;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            display: block;
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #555;
+            border: 1px solid #444;
+        }
+
+        nav ul li:hover > ul {
+            display: inherit;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 20px;
+            margin-top: 60px; /* Để giữ khoảng trống cho menu cố định */
+        }
+
+        .column {
+            box-sizing: border-box;
+            padding: 20px;
+            border: 1px solid #ddd;
+            min-width: 0;
+        }
+
+        .left, .center, .right {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .left {
+            background-color: #f2f2f2;
+        }
+
+        .center {
+            background-color: #fff;
+            flex: 2;
+        }
+
+        .right {
+            background-color: #f2f2f2;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        footer li {
+            margin: 0 10px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li>
+                <a href="#">About</a>
+                <ul>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Mission</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="column left">
+            <h2>Left Column</h2>
+            <p>This is the left column content.</p>
+        </div>
+
+        <div class="column center">
+            <h2>Center Column</h2>
+            {{ content }}
+        </div>
+
+        <div class="column right">
+            <h2>Right Column</h2>
+            <p>This is the right column content.</p>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
