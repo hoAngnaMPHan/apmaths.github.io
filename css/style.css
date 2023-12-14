@@ -202,11 +202,15 @@ footer {
   margin-bottom: 0;
   font-size: 14px;
   color: #FFFFFF;
-  text-decoration: none;
+ 
   
 }
 footer ul { padding: 0px; list-style: none; font-weight: bold; }
 footer ul li { display: inline; margin-right: 20px; }
+footer a { color: white;  text-decoration: none;
+}
+footer a:hover { font-weight: 900;
+}
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 801px) {
   .rnav {display: none;}
