@@ -30,6 +30,9 @@ a:hover {
     color: white;
     padding: 0px;
     text-align: center; /* Đặt canh trái cho menu */
+  position: sticky;
+            top: 0;
+            z-index: 1000;
 }
 
 nav ul {
