@@ -26,8 +26,6 @@ date: 2023-12-20
 <p>$\displaystyle \frac{\partial M}{\partial y}=\frac{\partial N}{\partial x}=12xy$</p>
 </div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8730937392758531" data-ad-host="ca-host-pub-1556223355139109"data-ad-slot="2844442537"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 <hr>
 
 <div><!-------------------CÁCH GIẢI-------------------->
