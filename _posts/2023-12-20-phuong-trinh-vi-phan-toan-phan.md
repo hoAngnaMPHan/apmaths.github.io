@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Phương trình vi phân toàn phần
+title: "Phương trình vi phân toàn phần"
 tags: "Calculus","Giải tích"
 date: 2023-12-20
 ---
 <h2 id="tan-man">1. Tản mạn</h2>
 <p>Đầu tiên, sẽ trình bày tóm gọn nhất về dạng và cách giải và sau đó là đưa ra ví dụ, để khi cần thì chỉ cần mở ra nhớ và làm, cái này giống như là delta của phương trình bậc hai, nhớ và làm thôi, còn việc tìm hiểu chuyên sâu như thế nào đó là nhu cầu của mỗi người. OK! Let's Go!</p>
 </div>
-
+<!--more-->
 
 <hr><!-------------------------------------------------->
 <div><!----------------DẠNG CỦA PHƯƠNG TRÌNH VI PHÂN TOÀN PHẦN------------->
