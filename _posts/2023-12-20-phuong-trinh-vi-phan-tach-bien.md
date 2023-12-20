@@ -15,13 +15,6 @@ PHƯƠNG TRÌNH VI PHÂN TÁCH BIẾN
 <h1>PHƯƠNG TRÌNH VI PHÂN TÁCH BIẾN</h1>
 
 
-  <p><b>CÁC BÀI VIẾT LIÊN QUAN VỀ PHƯƠNG TRÌNH VI PHÂN</b></p>
-  <p><a  href="/blog/mo-au-ve-phuong-trinh-vi-phan.html">MỞ ĐẦU VỀ PHƯƠNG TRÌNH VI PHÂN</a></p>
-  <p><a  href="/blog/phuong-trinh-vi-phan-tach-bien.html">PHƯƠNG TRÌNH VI PHÂN TÁCH BIẾN</a></p>
-    <p><a  href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-1.html">PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1</a></p>
- <p><a  href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-1.html">PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1</a></p>
-  <p><a  href="/blog/phuong-trinh-vi-phan.html">PHƯƠNG TRÌNH VI PHÂN ĐẲNG CẤP</a></p>
-  <p><a  href="/blog/phuong-trinh-vi-phan-toan-phan.html">PHƯƠNG TRÌNH VI PHÂN TOÀN PHẦN</a></p>
 
 
 <hr>
@@ -32,7 +25,7 @@ PHƯƠNG TRÌNH VI PHÂN TÁCH BIẾN
 $$M(x)dx+N(y)dy=0 \quad (1)$$</p>
   <p>hay $$M(x)N(y)dx+P(x)Q(y)dy=0 \quad (2)$$</p>
   <p>hay $$y'=f(x)g(y) \quad (3)$$</p>
-
+<!--more-->
 
 <p>Nhìn thì có vẻ khác nhau nhưng thực chất chỉ là một. Một cách hình thức ta có thể xem $y'=\dfrac{dy}{dx}$ và một vài phép biến đổi ta có thể chuyển qua lại giữa các dạng nói trên.</p>
 <p>Có thể nói tóm gọn lại một câu là phương trình vi phân tách biến thì có dạng <code>hàm nhân</code> (tức là tích của hai hàm biến $x,y$ rời nhau).</p>
@@ -149,3 +142,12 @@ $$M(x)dx+N(y)dy=0 \quad (1)$$</p>
 <p>$\Rightarrow y=Ce^{x}+x+4$</p>
 <p>Vậy nghiệm tổng quát của phương trình là: $y=Ce^{x}+x+4$</p>
 <hr>
+
+
+  <p><b>CÁC BÀI VIẾT LIÊN QUAN VỀ PHƯƠNG TRÌNH VI PHÂN</b></p>
+  <p><a  href="/blog/mo-au-ve-phuong-trinh-vi-phan.html">MỞ ĐẦU VỀ PHƯƠNG TRÌNH VI PHÂN</a></p>
+  <p><a  href="/blog/phuong-trinh-vi-phan-tach-bien.html">PHƯƠNG TRÌNH VI PHÂN TÁCH BIẾN</a></p>
+    <p><a  href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-1.html">PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1</a></p>
+ <p><a  href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-1.html">PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1</a></p>
+  <p><a  href="/blog/phuong-trinh-vi-phan.html">PHƯƠNG TRÌNH VI PHÂN ĐẲNG CẤP</a></p>
+  <p><a  href="/blog/phuong-trinh-vi-phan-toan-phan.html">PHƯƠNG TRÌNH VI PHÂN TOÀN PHẦN</a></p>
