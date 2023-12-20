@@ -38,7 +38,7 @@ date: 2023-12-20
   <p>$$\displaystyle U(x,y)=\int_{x_0}^{x}M(x,y)dx+\int_{y_0}^{y}N(x_0,y)dy=C \quad (2.2)$$</p>
   <p>với $(x_0,y_0)$ là một điểm điểm bất kỳ mà khi thay vào các hàm $M(x,y_0), N(x_0,y)$ xác định. Thường thì ta sẽ chọn sao cho thuận tiện trong việc tính tích phân nhất.</p>
 
-  <p>Cách nhớ của CaolacVC: Công thức này cực kỳ dễ nhớ nếu ta để ý một chút. Trước tiên một cách hình thức ta lấy tích phân hai vế của của phương trình $(1)$, lưu ý chỗ có đuôi vi phân là $dx$ thì cận chạy từ $x_0$ đến $x$, chỗ có phần đuôi là $dy$ thì cận chạy từ $y_0$ đến $y$.</p>
+  <p>Cách nhớ: Công thức này cực kỳ dễ nhớ nếu ta để ý một chút. Trước tiên một cách hình thức ta lấy tích phân hai vế của của phương trình $(1)$, lưu ý chỗ có đuôi vi phân là $dx$ thì cận chạy từ $x_0$ đến $x$, chỗ có phần đuôi là $dy$ thì cận chạy từ $y_0$ đến $y$.</p>
   <p>Điều quan trọng nhất là hãy nhớ chỉ được thay $x_0$ hoặc $y_0$ vào <span style="color:red">một trong hai</span> vị trí: phần có đuôi $dx$ thì chỉ được thay $y_0$. Phần có đuôi $dy$ thì chỉ được thay $x_0$.</p>
 
 
