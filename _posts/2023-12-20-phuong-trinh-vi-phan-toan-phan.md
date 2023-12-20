@@ -89,3 +89,6 @@ date: 2023-12-20
 <p>$\displaystyle \Leftrightarrow \int\limits_{0}^{x}{\left[ (1+x)e^x+1 \right]dx}+\int\limits_{0}^{y}{\left( e^x+xe^y \right)dy}=C$</p>
 <p>$\displaystyle \Leftrightarrow \left[ (1+x)e^x-e^x+x \right]\left| _{0}^{x} \right.+\left( ye^x+xe^y \right)\left| _{0}^{y} \right.=C$</p>
 <p>$\displaystyle \Leftrightarrow e^x(x+y)+xe^y=C$</p>
+
+<div class="fb-comments" data-href="/blog/phuong-trinh-vi-phan-toan-phan" data-width="" data-numposts="10"></div>
+
