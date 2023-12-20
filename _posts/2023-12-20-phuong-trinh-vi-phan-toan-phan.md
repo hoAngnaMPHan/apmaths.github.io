@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Phương trình vi phân toàn phần"
-tags: "Calculus","Giải tích"
+tags: [Calculus,Giải tích]
 date: 2023-12-20
 ---
 <h2 id="tan-man">1. Tản mạn</h2>
