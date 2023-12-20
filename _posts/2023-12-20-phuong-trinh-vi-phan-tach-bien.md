@@ -60,7 +60,7 @@ $$M(x)dx+N(y)dy=0 \quad (1)$$</p>
 
 <p><b>Ví dụ 2.</b> Giải phương trình </p>   
 
-<p> $$\frac{xdx}{1+x^2}}+\frac{ydy}{1+y^2}=0,\quad\left( 1 \right)$$ </p>
+<p> $$\frac{xdx}{1+x^2}+\frac{ydy}{1+y^2}=0,\quad\left( 1 \right)$$ </p>
 
 <p>Dễ dàng thấy $\left( 1 \right)$ là phương trình vi phân tách biến</p>
 <p>$\displaystyle \left( 1 \right)\Rightarrow \frac{xdx}{1+x^2}=-\frac{ydy}{1+y^2}$</p>
