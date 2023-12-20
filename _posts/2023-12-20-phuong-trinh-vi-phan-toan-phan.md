@@ -5,8 +5,7 @@ tags: "Calculus","Giải tích"
 date: 2023-12-20
 ---
 <h2 id="tan-man">1. Tản mạn</h2>
-<p>Trời thì đang mưa rất là to, sáng ngủ dậy làm được gói mỳ tôm, nhai thêm hai cái bánh chocolate và làm thêm cốc nước nữa kakaka... đủ năng lượng cho một buổi sáng. Tiếng mưa vẫn rơi rả rích trên mái nhà, ngay lúc này đây, được ngồi một mình ngâm cứu một thứ gì đó thì quả thật không còn gì bằng. Làm thêm một ngụm nước, kê bàn và lật sách phương trình vi phân ra đọc. Chà ngay lúc này, cũng có một cảm nhận gì đó tí tẹo về phương trình vi phân toàn phần, tạm thời viết một bài nhỏ ở đây, có khi giờ nhớ đấy, nhưng vài hôm nữa lại quên ngay...</p>
-<p>Đầu tiên CaolacVC sẽ trình bày tóm gọn nhất về dạng và cách giải và sau đó là đưa ra ví dụ, để khi cần thì chỉ cần mở ra nhớ và làm, cái này giống như là delta của phương trình bậc hai, nhớ và làm thôi, còn việc ngâm cứu chuyên sâu như thế nào đó là nhu cầu của mỗi người. OK! Let's Go!</p>
+<p>Đầu tiên, sẽ trình bày tóm gọn nhất về dạng và cách giải và sau đó là đưa ra ví dụ, để khi cần thì chỉ cần mở ra nhớ và làm, cái này giống như là delta của phương trình bậc hai, nhớ và làm thôi, còn việc tìm hiểu chuyên sâu như thế nào đó là nhu cầu của mỗi người. OK! Let's Go!</p>
 </div>
 
 
