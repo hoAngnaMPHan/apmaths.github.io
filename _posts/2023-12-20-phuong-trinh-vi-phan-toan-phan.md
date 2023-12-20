@@ -5,14 +5,14 @@ tags: [phương trình, vi phân]
 categories: [Calculus]
 date: 2023-12-20
 ---
-<h2 >1. Tản mạn</h2>
+
 <p>Đầu tiên, sẽ trình bày tóm gọn nhất về dạng và cách giải và sau đó là đưa ra ví dụ, để khi cần thì chỉ cần mở ra nhớ và làm, cái này giống như là delta của phương trình bậc hai, nhớ và làm thôi, còn việc tìm hiểu chuyên sâu như thế nào đó là nhu cầu của mỗi người. OK! Let's Go!</p>
 
 <!--more-->
 
 <hr><!-------------------------------------------------->
 <!----------------DẠNG CỦA PHƯƠNG TRÌNH VI PHÂN TOÀN PHẦN------------->
-<h2 >2. Dạng phương trình vi phân toàn phần</h2>
+<h2 >Dạng phương trình vi phân toàn phần</h2>
 
   <p>Phương trình vi phân dạng</p>
   <p>$$M(x,y)dx+N(x,y)dy=0\quad (1)$$</p>
@@ -29,7 +29,7 @@ date: 2023-12-20
 <hr>
 
 <!-------------------CÁCH GIẢI-------------------->
-<h2 >3. Cách giải</h2>
+<h2 >Cách giải</h2>
 <p>Ở đây ta chỉ nêu cách giải và áp dụng, nên mới nói là nó cũng như công thức delta mà thôi. Việc tìm hiểu thêm là nhu cầu của mỗi người.</p>
 
   <p>Nếu phương trình $(1)$ là phương trình vi phân toàn phần thì tích phân tổng quát của phương trình $(1)$ là:</p>
