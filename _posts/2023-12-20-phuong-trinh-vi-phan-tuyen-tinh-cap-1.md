@@ -1,0 +1,55 @@
+---
+layout: post
+title: "Phương trình vi phân tuyến tính cấp 1"
+tags: [phương trình, vi phân]
+categories: [Calculus]
+date: 2023-12-20
+---
+
+<h1>
+PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1
+</h1>
+
+  <p><b>CÁC BÀI VIẾT LIÊN QUAN VỀ PHƯƠNG TRÌNH VI PHÂN</b></p>
+  <p><a href="/blog/mo-dau-ve-phuong-trinh-vi-phan.html">MỞ ĐẦU VỀ PHƯƠNG TRÌNH VI PHÂN</a></p>
+  <p><a  href="/blog/phuong-trinh-vi-phan-tach-bien.html">PHƯƠNG TRÌNH VI PHÂN TÁCH BIẾN</a></p>
+ <p><a href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-1.html">PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1</a></p>
+ <p><a href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-2.html">PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 2</a></p>
+  <p><a href="/blog/phuong-trinh-vi-phan-dang-cap.html">PHƯƠNG TRÌNH VI PHÂN ĐẲNG CẤP</a></p>
+  <p><a chref="/blog/phuong-trinh-vi-phan-toan-phan.html">PHƯƠNG TRÌNH VI PHÂN TOÀN PHẦN</a></p>
+
+<h1>PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1 KHÔNG THUẦN NHẤT (PHẦN 2)</h1>
+<p>Ở bài viết đầu (<a href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-1.html" >PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1 (PHẦN 1)</a>) ta đã xử thằng phương trình vi phân tuyến tính cấp 1 thuần nhất, tức là dạng $y'+p(x)=0$. Ở bài viết thứ hai này ta sẽ đi xử trường hợp $y'+p(x)=q(x)$</p>
+<h2>Dạng phương trình vi phân tuyến tính cấp 1 không thuần nhất</h2>
+
+    <p>$$y'+p(x)=q(x)(*)$$</p>
+
+<h3>Phương pháp giải thừa số tích phân</h3>
+<p>Đối với phương pháp này ta phải nhớ thằng đệ $\displaystylee^{\int{p(x)dx}}$</p>
+<p>Ta nhân hai vế của $(*)$ với thằng đệ thừa số tích phân $\displaystyle e^{\int{p(x)dx}$, ta được</p>
+<p>$$y'e^{\int{p(x)dx}}+p(x)e^{\int{p(x)dx}}=q(x)e^{\int{p(x)dx}}$$</p>
+<p>Dễ thấy vế trái sẽ là $\left( ye^{\int{p(x)dx}} \right)'$, nghĩa là ta có</p>
+<p>$$\left( ye^{\int{p(x)dx}} \right)'=q(x)e^{\int{p(x)dx}}$$</p>
+<p>Tới đây ta chỉ cần lấy tích phân hai vế là xong.</p>
+
+
+<hr>
+<h2>Ví dụ</h2>
+<p>Ta sẽ đi qua phần ví dụ để nắm rõ cách làm này</p>
+
+    <p><b>Ví dụ 1.</b> Giải phương trình $y'=x-2xy$</p>
+
+<p><b>Giải</b></p>
+<p>Bằng một phép biến đổi đơn giản ta đưa phương trình về thành</p>
+<p>$$y'+2xy=x(1)$$</p>
+<p>Rõ ràng đây là phương trình vi phân tuyến tính cấp 1 với  $p(x)=2x$ và $q(x)=x$</p>
+<p>OK, ta đi tìm thằng đệ thừa số tích phân $e^{\int{p(x)dx}}$ chính là $e^{\int{2xdx}}=e^{x^2}$</p>
+<p>Ta nhân hai vế của phương trình $(1)$ cho $e^{x^2}$, ta được</p>
+<p>$\displaystyle y'e^{x^2}+2xye^{x^2}=xe^{x^2}$</p>
+<p>$\displaystyle \Rightarrow \left( ye^{x^2} \right)'=xe^{x^2}$</p>
+<p>Tới đây ta lấy tính phân hai vế, khi đó ta được</p>
+<p>$\displaystyle ye^{x^2}=\int{xe^{x^2}dx}$</p>
+<p>$\displaystyle \Rightarrow ye^{x^2}=\frac{1}{2}e^{x^2}+C$</p>
+<p>Hay $\displaystyle y=\frac{1}{2}+Ce^{-x^2}$</p>
+<p>Giờ thì mọi thứ đã sáng tỏ đúng không nào</p>
+<hr>
