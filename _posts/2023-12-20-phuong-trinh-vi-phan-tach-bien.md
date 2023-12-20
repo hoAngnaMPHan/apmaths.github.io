@@ -5,23 +5,10 @@ tags: [phương trình, vi phân]
 title: "PHƯƠNG TRÌNH VI PHÂN TÁCH BIẾN"
 date: 2023-12-20
 ---
-
-<h1>
-PHƯƠNG TRÌNH VI PHÂN TÁCH BIẾN
-</h1>
-
-
 <hr>
-<h1>PHƯƠNG TRÌNH VI PHÂN TÁCH BIẾN</h1>
+<h2>DẠNG</h2>
 
-
-
-
-<hr>
-
-<h2>1. DẠNG</h2>
-
-  <p><code>Phương trình vi phân tách biến</code> (hay còn có thể goi là <code>biến phân li</code>) là phương trình vi phân có dạng
+<p><code>Phương trình vi phân tách biến</code> (hay còn có thể goi là <code>biến phân li</code>) là phương trình vi phân có dạng
 $$M(x)dx+N(y)dy=0 \quad (1)$$</p>
   <p>hay $$M(x)N(y)dx+P(x)Q(y)dy=0 \quad (2)$$</p>
   <p>hay $$y'=f(x)g(y) \quad (3)$$</p>
@@ -71,7 +58,9 @@ $$M(x)dx+N(y)dy=0 \quad (1)$$</p>
 <p><b>Nhận xét.</b> Việc giải phương trình vi phân tách biến hay còn gọi là biến phân ly này thực chất chỉ là tính tích phân. Do vậy cần phải nắm vững cách tính tích phân của một số hàm, lớp hàm đặc biệt. Khi đó thì tốc độ làm của chúng ta sẽ tăng lên đáng kể. Caolac sẽ viết riêng một bài về cách tính tích phân của một số lớp hàm đặc biệt và đính kèm link ở đây khi bài viết hoàn thành.</p>
 
 
-  <p><b>Ví dụ 2.</b> Giải phương trình $$\frac{xdx}{1+x^2}}+\frac{ydy}{1+y^2}=0,\quad\left( 1 \right)$$ </p>
+<p><b>Ví dụ 2.</b> Giải phương trình </p>   
+
+<p> $$\frac{xdx}{1+x^2}}+\frac{ydy}{1+y^2}=0,\quad\left( 1 \right)$$ </p>
 
 <p>Dễ dàng thấy $\left( 1 \right)$ là phương trình vi phân tách biến</p>
 <p>$\displaystyle \left( 1 \right)\Rightarrow \frac{xdx}{1+x^2}=-\frac{ydy}{1+y^2}$</p>
@@ -147,7 +136,7 @@ $$M(x)dx+N(y)dy=0 \quad (1)$$</p>
   <p><b>CÁC BÀI VIẾT LIÊN QUAN VỀ PHƯƠNG TRÌNH VI PHÂN</b></p>
   <p><a  href="/blog/mo-au-ve-phuong-trinh-vi-phan.html">MỞ ĐẦU VỀ PHƯƠNG TRÌNH VI PHÂN</a></p>
   <p><a  href="/blog/phuong-trinh-vi-phan-tach-bien.html">PHƯƠNG TRÌNH VI PHÂN TÁCH BIẾN</a></p>
-    <p><a  href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-1.html">PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1</a></p>
- <p><a  href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-1.html">PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1</a></p>
+  <p><a  href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-1.html">PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1</a></p>
+  <p><a  href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-2.html">PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 2</a></p>
   <p><a  href="/blog/phuong-trinh-vi-phan.html">PHƯƠNG TRÌNH VI PHÂN ĐẲNG CẤP</a></p>
   <p><a  href="/blog/phuong-trinh-vi-phan-toan-phan.html">PHƯƠNG TRÌNH VI PHÂN TOÀN PHẦN</a></p>
