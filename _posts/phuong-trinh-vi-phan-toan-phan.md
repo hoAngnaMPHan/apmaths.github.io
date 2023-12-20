@@ -1,5 +1,8 @@
 ---
-
+layout: post
+title: Phương trình vi phân toàn phần
+tags: "Calculus","Giải tích"
+date: 2023-12-20
 ---
 <h2 id="tan-man">1. Tản mạn</h2>
 <p>Trời thì đang mưa rất là to, sáng ngủ dậy làm được gói mỳ tôm, nhai thêm hai cái bánh chocolate và làm thêm cốc nước nữa kakaka... đủ năng lượng cho một buổi sáng. Tiếng mưa vẫn rơi rả rích trên mái nhà, ngay lúc này đây, được ngồi một mình ngâm cứu một thứ gì đó thì quả thật không còn gì bằng. Làm thêm một ngụm nước, kê bàn và lật sách phương trình vi phân ra đọc. Chà ngay lúc này, cũng có một cảm nhận gì đó tí tẹo về phương trình vi phân toàn phần, tạm thời viết một bài nhỏ ở đây, có khi giờ nhớ đấy, nhưng vài hôm nữa lại quên ngay...</p>
