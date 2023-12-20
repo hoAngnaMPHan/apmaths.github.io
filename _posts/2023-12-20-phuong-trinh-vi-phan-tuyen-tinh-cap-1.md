@@ -6,29 +6,27 @@ categories: [Calculus]
 date: 2023-12-20
 ---
 
-<h1>
-PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1
-</h1>
-<h1>PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1 KHÔNG THUẦN NHẤT</h1>
-<p>Ở bài viết đầu (<a href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-1.html" >PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1 (PHẦN 1)</a>) ta đã xử thằng phương trình vi phân tuyến tính cấp 1 thuần nhất, tức là dạng $y'+p(x)=0$. Ở bài viết thứ hai này ta sẽ đi xử trường hợp $y'+p(x)=q(x)$</p>
 <h2>Dạng phương trình vi phân tuyến tính cấp 1 không thuần nhất</h2>
 
-<p>$$y'+p(x)=q(x)(*)$$</p>
+<p>$$y'+p(x)y=q(x)(*)$$</p>
+
+<p>Trường hợp $q(x)=0$, ta có thể đưa phương trình trở về dạng phương trình vi phân tách biến và giải quyết nó.</p>
 <!--more-->
+<p>Trường hợp $q(x)\neq 0$, ta có thể giải phương trình này bằng phương pháp sau</p>
+
 <h3>Phương pháp giải thừa số tích phân</h3>
-<p>Đối với phương pháp này ta phải nhớ thằng đệ $\displaystylee^{\int{p(x)dx}}$</p>
-<p>Ta nhân hai vế của $(*)$ với thằng đệ thừa số tích phân $\displaystyle e^{\int{p(x)dx}$, ta được</p>
-<p>$$y'e^{\int{p(x)dx}}+p(x)e^{\int{p(x)dx}}=q(x)e^{\int{p(x)dx}}$$</p>
+<p>Đối với phương pháp này ta phải nhớ nhân tử tích phân $I(x)=e^{\int{p(x)dx}}$ </p>
+<p>Ta nhân hai vế của $(*)$ với nhân tử tích phân $I(x)$, ta được</p>
+<p>$$y' e^{\int{p(x)dx}}+p(x)e^{\int{p(x)dx}}=q(x)e^{\int{p(x)dx}}$$</p>
 <p>Dễ thấy vế trái sẽ là $\left( ye^{\int{p(x)dx}} \right)'$, nghĩa là ta có</p>
 <p>$$\left( ye^{\int{p(x)dx}} \right)'=q(x)e^{\int{p(x)dx}}$$</p>
-<p>Tới đây ta chỉ cần lấy tích phân hai vế là xong.</p>
-
-
+<p>Tới đây ta chỉ cần lấy tích phân hai vế là xong. Tức là </p>
+<p>$$y=\displaystyle \frac{1}{I(x)}\int{q(x)I(x)dx}$$</p>
 <hr>
 <h2>Ví dụ</h2>
 <p>Ta sẽ đi qua phần ví dụ để nắm rõ cách làm này</p>
 
-    <p><b>Ví dụ 1.</b> Giải phương trình $y'=x-2xy$</p>
+<p><b>Ví dụ 1.</b> Giải phương trình $y'=x-2xy$</p>
 
 <p><b>Giải</b></p>
 <p>Bằng một phép biến đổi đơn giản ta đưa phương trình về thành</p>
@@ -39,7 +37,7 @@ PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1
 <p>$\displaystyle y'e^{x^2}+2xye^{x^2}=xe^{x^2}$</p>
 <p>$\displaystyle \Rightarrow \left( ye^{x^2} \right)'=xe^{x^2}$</p>
 <p>Tới đây ta lấy tính phân hai vế, khi đó ta được</p>
-<p>$\displaystyle ye^{x^2}=\int{xe^{x^2}dx}$</p>
+<p>$\displaystyle y e^{x^2}=\int{xe^{x^2}dx}$</p>
 <p>$\displaystyle \Rightarrow ye^{x^2}=\frac{1}{2}e^{x^2}+C$</p>
 <p>Hay $\displaystyle y=\frac{1}{2}+Ce^{-x^2}$</p>
 <p>Giờ thì mọi thứ đã sáng tỏ đúng không nào</p>
@@ -50,4 +48,4 @@ PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1
  <p><a href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-1.html">PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 1</a></p>
  <p><a href="/blog/phuong-trinh-vi-phan-tuyen-tinh-cap-2.html">PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH CẤP 2</a></p>
   <p><a href="/blog/phuong-trinh-vi-phan-dang-cap.html">PHƯƠNG TRÌNH VI PHÂN ĐẲNG CẤP</a></p>
-  <p><a chref="/blog/phuong-trinh-vi-phan-toan-phan.html">PHƯƠNG TRÌNH VI PHÂN TOÀN PHẦN</a></p>
+  <p><a href="/blog/phuong-trinh-vi-phan-toan-phan.html">PHƯƠNG TRÌNH VI PHÂN TOÀN PHẦN</a></p>
