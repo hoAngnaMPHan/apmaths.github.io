@@ -21,7 +21,7 @@ date: 2023-12-20
   <p>Điều kiện để một phương trình vi phân dạng $(1)$ trở thành phương trình vi phân toàn phần (hay cách nhận biết phương trình vi phân toàn phần) là:</p>
   <p>$$\displaystyle \frac{\partial M}{\partial y}=\frac{\partial N}{\partial x}$$</p>
 
-<p><b>Ví dụ.</b> Phương trình vi phân $(3x^2+6xy^2)dx+(6x^2y+4y^3)dy$  là phương trình vi phân toàn phần vì</p>
+<p><b>Ví dụ.</b> Phương trình vi phân \[(3x^2+6xy^2)dx+(6x^2y+4y^3)dy\]  là phương trình vi phân toàn phần vì</p>
 <p>$M(x,y)=(3x^2+6xy^2), N(x,y)=(6x^2y+4y^3)$</p>
 <p>$\displaystyle \frac{\partial M}{\partial y}=\frac{\partial N}{\partial x}=12xy$</p>
 
