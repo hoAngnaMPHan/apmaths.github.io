@@ -7,6 +7,12 @@
             color: #333;
         }
 
+.MathJax {
+    font-size: 16px; /* Kích thước font toán học */
+    color: #333; /* Màu sắc */
+    /* Thêm các quy tắc CSS khác tùy chọn */
+}
+
        header {
             background-color: #10345A;
             color: white;
