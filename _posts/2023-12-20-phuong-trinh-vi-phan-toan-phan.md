@@ -78,14 +78,14 @@ date: 2023-12-20
 
 
 
-  <p><b>Bài tập 2.</b> Giải phương trình $$\left[ \left( 1+x+y \right){{e}^{x}}+{{e}^{y}} \right]dx+\left( {{e}^{x}}+x{{e}^{y}} \right)dy=0$$</p>
+  <p><b>Bài tập 2.</b> Giải phương trình $$\left[ \left( 1+x+y \right)e^x+e^y \right]dx+\left( e^x+xe^y \right)dy=0$$</p>
 
-<p>$\displaystyle M(x;y)=(1+x+y){{e}^{x}}+{{e}^{y}}$</p>
-<p>$\displaystyle N(x;y)={{e}^{x}}+x{{e}^{y}}$</p>
-<p>$\displaystyle \frac{\partial M}{dy}=\frac{\partial N}{dx}={{e}^{x}}$</p>
+<p>$\displaystyle M(x;y)=(1+x+y)e^{x}+e^y$</p>
+<p>$\displaystyle N(x;y)=e^x+xe^y$</p>
+<p>$\displaystyle \frac{\partial M}{dy}=\frac{\partial N}{dx}=e^x$</p>
 <p>Chọn $({{x}_{0}};{{y}_{0}})=(0;0)$</p>
 <p>Suy ra tích phân tổng quát</p>
-<p>$\displaystyle \int\limits_{0}^{x}{\left[ (1+x+0){{e}^{x}}+{{e}^{0}} \right]dx}+\int\limits_{0}^{y}{\left( {{e}^{x}}+x{{e}^{y}} \right)dy}=C$</p>
-<p>$\displaystyle \Leftrightarrow \int\limits_{0}^{x}{\left[ (1+x){{e}^{x}}+1 \right]dx}+\int\limits_{0}^{y}{\left( {{e}^{x}}+x{{e}^{y}} \right)dy}=C$</p>
-<p>$\displaystyle \Leftrightarrow \left[ (1+x){{e}^{x}}-{{e}^{x}}+x \right]\left| _{0}^{x} \right.+\left( y{{e}^{x}}+x{{e}^{y}} \right)\left| _{0}^{y} \right.=C$</p>
-<p>$\displaystyle \Leftrightarrow {{e}^{x}}(x+y)+x{{e}^{y}}=C$</p>
+<p>$\displaystyle \int\limits_{0}^{x}{\left[ (1+x+0)e^x+e^0 \right]dx}+\int\limits_{0}^{y}{\left( e^x+xe^y \right)dy}=C$</p>
+<p>$\displaystyle \Leftrightarrow \int\limits_{0}^{x}{\left[ (1+x)e^x+1 \right]dx}+\int\limits_{0}^{y}{\left( e^x+xe^y \right)dy}=C$</p>
+<p>$\displaystyle \Leftrightarrow \left[ (1+x)e^x-e^x+x \right]\left| _{0}^{x} \right.+\left( ye^x+xe^y \right)\left| _{0}^{y} \right.=C$</p>
+<p>$\displaystyle \Leftrightarrow e^x(x+y)+xe^y=C$</p>
