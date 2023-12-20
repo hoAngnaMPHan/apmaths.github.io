@@ -9,7 +9,6 @@ date: 2023-12-20
 <p>Đầu tiên CaolacVC sẽ trình bày tóm gọn nhất về dạng và cách giải và sau đó là đưa ra ví dụ, để khi cần thì chỉ cần mở ra nhớ và làm, cái này giống như là delta của phương trình bậc hai, nhớ và làm thôi, còn việc ngâm cứu chuyên sâu như thế nào đó là nhu cầu của mỗi người. OK! Let's Go!</p>
 </div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8730937392758531" data-ad-host="ca-host-pub-1556223355139109"data-ad-slot="2844442537"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 <hr><!-------------------------------------------------->
 <div><!----------------DẠNG CỦA PHƯƠNG TRÌNH VI PHÂN TOÀN PHẦN------------->
@@ -47,7 +46,7 @@ date: 2023-12-20
 </div>
 </div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8730937392758531" data-ad-host="ca-host-pub-1556223355139109"data-ad-slot="2844442537"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 
 <hr>
 <div><!-----------------------VÍ DỤ ÁP DỤNG------------------>
@@ -66,7 +65,6 @@ date: 2023-12-20
 <p>$x^3+3x^2y^2+y^4=C$</p>
 </div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8730937392758531" data-ad-host="ca-host-pub-1556223355139109"data-ad-slot="2844442537"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 <hr>
 <h2 id="bai-tap">Một số bài tập có lời giải</h2>
